@@ -20,7 +20,7 @@ export function getUsers(req, res, next) {
 export function getUser(req, res, next) {
   const id = req.params.id
   const message = {
-    "message": `SINGULAR GET ACKNOWLEDGED!`,
+    "message": "SINGULAR GET ACKNOWLEDGED!",
     "id": id
   }
   res.status(201).send(message);
@@ -48,6 +48,19 @@ export function deleteUser(req, res, next) {
 #+end_src
 
 
+* Theme Controller
+** Rotas
+*** TODO GET
+#+begin_src js
+export function getTheme(req, res, next){
+  const id = req.params.id
+  const message = {
+    "message": "GET ACKNOWLEDGED!",
+    "id": id
+  }
+  res.status(201).send(message);
+}
+#+end_src
 * Metadados :noexport:
 #+OPTIONS:
 # local variables:

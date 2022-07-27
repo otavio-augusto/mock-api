@@ -25,3 +25,6 @@ Info 21   [19:24:40.135] Different program with same set of files
 Info 22   [19:26:58.694] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
 Info 23   [19:26:58.705] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 10.96095999982208ms
 Info 24   [19:26:58.705] Different program with same set of files
+Info 25   [19:27:46.543] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [19:27:46.556] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 12.915467999875546ms
+Info 27   [19:27:46.556] Different program with same set of files
