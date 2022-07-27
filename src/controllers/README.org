@@ -2,24 +2,54 @@
 
 * User Controller
 ** Rotas
-*** GET
-#+begin_src js
+*** TODO GET
+Por sua natureza, devem existir duas rotas ~GET~, uma para retornar todos os usuários, e outro para retornar um especifico.
+
+Essas rotas foram denominadas plural e singular, respectivamente.
+#+begin_src js :tangle userController.js
+//ROTA GET PLURAL
 export function getUsers(req, res, next) {
   const message = {
     "message": "PLURAL GET ACKNOWLEDGED!"
   }
 
   res.status(201).send(message);
-  //TODO GET PLURAL
 };
 
 //ROTA GET SINGULAR
 export function getUser(req, res, next) {
   const id = req.params.id
   const message = {
-    "message": "SINGULAR GET ACKNOWLEDGED!"
+    "message": `SINGULAR GET ACKNOWLEDGED!`,
+    "id": id
   }
   res.status(201).send(message);
-  //TODO GET SINGULAR
 };
 #+end_src
+*** TODO PUT
+#+begin_src js :tangle userController.js
+export function putUser(req, res, next) {
+  res.status(201).send('Requisição recebida com sucesso!');
+};
+#+end_src
+*** TODO POST
+#+begin_src js :tangle userController.js
+export function postUser(req, res, next) {
+  let id = req.params.id;
+  res.status(201).send(`Requisição recebida com sucesso! ${id}`);
+};
+#+end_src
+*** TODO DELETE
+#+begin_src js :tangle userController.js
+export function deleteUser(req, res, next) {
+  let id = req.params.id;
+  res.status(200).send(`Requisição recebida com sucesso! ${id}`);
+};
+#+end_src
+
+
+* Metadados :noexport:
+#+OPTIONS:
+# local variables:
+# ispell-local-dictionary: "pt_BR"
+# end:

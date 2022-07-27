@@ -1,0 +1,27 @@
+Info 0    [19:04:29.981] Starting TS Server
+Info 1    [19:04:29.982] Version: 4.7.3
+Info 2    [19:04:29.982] Arguments: /usr/bin/node /home/souza/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/souza/Organização/Recursos/Repositórios/mock-api/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/f41e4c32089594710a9db45a581fdbfd/tscancellation*
+Info 3    [19:04:29.982] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [19:04:29.982] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:04:30.056] Format host information updated
+Info 6    [19:04:30.079] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 7    [19:04:30.081] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
+Info 8    [19:04:30.094] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [19:04:31.955] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1860.398249000311ms
+Info 10   [19:04:31.955] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [19:04:31.955] 	Files (19)
+
+Info 12   [19:04:31.955] -----------------------------------------------
+Info 13   [19:04:31.970] AutoImportProviderProject: found 3 root files in 3 dependencies in 12.05139199923724 ms
+Info 14   [19:04:31.984] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [19:04:33.144] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1159.462515999563ms
+Info 16   [19:04:33.144] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [19:04:33.144] 	Files (62)
+
+Info 18   [19:04:33.144] -----------------------------------------------
+Info 19   [19:24:40.117] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [19:24:40.135] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 17.736471999436617ms
+Info 21   [19:24:40.135] Different program with same set of files
+Info 22   [19:26:58.694] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 23   [19:26:58.705] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 10.96095999982208ms
+Info 24   [19:26:58.705] Different program with same set of files
