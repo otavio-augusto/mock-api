@@ -1,0 +1,25 @@
+#+title: /Controllers/
+
+* User Controller
+** Rotas
+*** GET
+#+begin_src js
+export function getUsers(req, res, next) {
+  const message = {
+    "message": "PLURAL GET ACKNOWLEDGED!"
+  }
+
+  res.status(201).send(message);
+  //TODO GET PLURAL
+};
+
+//ROTA GET SINGULAR
+export function getUser(req, res, next) {
+  const id = req.params.id
+  const message = {
+    "message": "SINGULAR GET ACKNOWLEDGED!"
+  }
+  res.status(201).send(message);
+  //TODO GET SINGULAR
+};
+#+end_src
