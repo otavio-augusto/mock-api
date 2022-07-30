@@ -17,5 +17,5 @@ export async function readData(filename) {
       return data
   }
   const rawData = await fs.readFile(join("./assets/", filename), callback)
-  return JSON.parse(rawData)
+  return JSON.parse(rawData)['users']
 }

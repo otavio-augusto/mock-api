@@ -31,7 +31,7 @@ Controller <-left-> Dados:"Read and Write"
 import { writeData, readData } from '../storage/storageDriver.js'
 #+end_src
 ** Rotas
-*** DONE GET
+*** TODO GET
 Por sua natureza, devem existir duas rotas ~GET~, uma para retornar todos os usuários, e outro para retornar um especifico.
 
 Essas rotas foram denominadas plural e singular, respectivamente.
