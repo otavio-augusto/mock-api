@@ -1,5 +1,31 @@
 #+title: /Controllers/
 
+Estes são os /controllers/ do projeto.
+#+begin_src plantuml :file .img/img1.png
+@startuml
+  component Model
+  component View
+  component Controller
+  database Dados
+
+interface response as "HTTP Response"
+interface request as "HTTP Request"
+
+component "Navegador" as navegador
+
+navegador -> request: "     "
+request --> Controller
+Controller --> response
+Model -> response: Serializa
+response -> View: "     "
+View -> navegador: Renderiza
+
+Controller <-left-> Dados:"Read and Write"
+@enduml
+#+end_src
+#+RESULTS:
+[[file:.img/img1.png]]
+
 * User Controller
 ** Rotas
 *** TODO GET
@@ -12,7 +38,6 @@ export function getUsers(req, res, next) {
   const message = {
     "message": "PLURAL GET ACKNOWLEDGED!"
   }
-
   res.status(201).send(message);
 };
 
@@ -29,21 +54,33 @@ export function getUser(req, res, next) {
 *** TODO PUT
 #+begin_src js :tangle userController.js
 export function putUser(req, res, next) {
-  res.status(201).send('Requisição recebida com sucesso!');
+  const message = {
+    "message": `PUT USER ACKNOWLEDGED!`,
+    "id": id
+  }
+  res.status(201).send(message);
 };
 #+end_src
 *** TODO POST
 #+begin_src js :tangle userController.js
 export function postUser(req, res, next) {
-  let id = req.params.id;
-  res.status(201).send(`Requisição recebida com sucesso! ${id}`);
+  const id = req.params.id
+  const message = {
+    "message": `POST USER ACKNOWLEDGED!`,
+    "id": id
+  }
+  res.status(201).send(message);
 };
 #+end_src
 *** TODO DELETE
 #+begin_src js :tangle userController.js
 export function deleteUser(req, res, next) {
-  let id = req.params.id;
-  res.status(200).send(`Requisição recebida com sucesso! ${id}`);
+  const id = req.params.id
+  const message = {
+    "message": `DELETE USER ACKNOWLEDGED!`,
+    "id": id
+  }
+  res.status(201).send(message);
 };
 #+end_src
 
@@ -61,7 +98,11 @@ export function getTheme(req, res, next){
   res.status(201).send(message);
 }
 #+end_src
-* Metadados :noexport:
+
+#+RESULTS:
+
+* COMMENT Metadados
+#+PROPERTY: header-args :noeval
 #+OPTIONS:
 # local variables:
 # ispell-local-dictionary: "pt_BR"
