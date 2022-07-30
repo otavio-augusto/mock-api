@@ -1,6 +1,8 @@
 #+title: /Controllers/
 
 Estes são os /controllers/ do projeto.
+
+Para entender a função dos /controllers/ no projeto, veja o seguinte:
 #+begin_src plantuml :exports results :file .img/img1.png
 @startuml
   component Model
@@ -23,53 +25,48 @@ View -> navegador: Renderiza
 Controller <-left-> Dados:"Read and Write"
 @enduml
 #+end_src
-#+RESULTS:
-[[file:.img/img1.png]]
 
 * User Controller
+#+begin_src js :tangle userController.js
+import { writeData, readData } from '../storage/storageDriver.js'
+#+end_src
 ** Rotas
-*** TODO GET
+*** DONE GET
 Por sua natureza, devem existir duas rotas ~GET~, uma para retornar todos os usuários, e outro para retornar um especifico.
 
 Essas rotas foram denominadas plural e singular, respectivamente.
 #+begin_src js :tangle userController.js
 //ROTA GET PLURAL
-export function getUsers(req, res, next) {
-  const message = {
-    "message": "PLURAL GET ACKNOWLEDGED!"
-  }
-  res.status(201).send(message);
+export async function getUsers(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  const message = await readData("users.json")
+  res.status(201).json(message);
 };
 
 //ROTA GET SINGULAR
-export function getUser(req, res, next) {
-  const id = req.params.id
-  const message = {
-    "message": "SINGULAR GET ACKNOWLEDGED!",
-    "id": id
-  }
-  res.status(201).send(message);
+export async function getUser(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  const message = await readData("users.json")
+
+  message.filter((item) => {
+    if (req.params.id == item.id)
+      res.status(201).send(item);
+  })
 };
 #+end_src
 *** TODO PUT
 #+begin_src js :tangle userController.js
 export function putUser(req, res, next) {
-  const message = {
-    "message": `PUT USER ACKNOWLEDGED!`,
-    "id": id
-  }
-  res.status(201).send(message);
+  res.status(201).send("OK");
 };
 #+end_src
-*** TODO POST
+*** DONE POST
 #+begin_src js :tangle userController.js
-export function postUser(req, res, next) {
-  const id = req.params.id
-  const message = {
-    "message": `POST USER ACKNOWLEDGED!`,
-    "id": id
-  }
-  res.status(201).send(message);
+export async function postUser(req, res, next) {
+  await writeData("users.json", req.body)
+  res.status(201).send("GOT PUT!");
 };
 #+end_src
 *** TODO DELETE
@@ -106,4 +103,5 @@ export function getTheme(req, res, next){
 #+OPTIONS:
 # local variables:
 # ispell-local-dictionary: "pt_BR"
+#+auto_tangle: t
 # end:

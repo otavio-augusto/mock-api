@@ -1,0 +1,38 @@
+#+title: /Storage/
+Nesta pasta se encontram tudo relacionado ao armazenamento para a API.
+
+#+begin_src js :tangle storageDriver.js
+import { readFile, writeFile } from 'fs'
+#+end_src
+
+* Armazenar dados
+#+begin_src js :tangle storageDriver.js
+export async function writeData(filename, content) {
+  console.log("WRITING DATA")
+  const catchError = (error) => {error ? console.log(error) : console.log("OK")}
+  await writeFile(filename, content, catchError)
+}
+#+end_src
+
+* Recuperar dados
+#+begin_src js :tangle storageDriver.js
+export async function readData(filename) {
+  const results = ""
+  const callback = (error, data) => {
+    if (error)
+      console.log(error)
+    else
+      results = data
+  }
+  await readFile(filename, callback)
+  return results
+}
+#+end_src
+
+
+* COMMENT Metadados
+#+PROPERTY: header-args :noeval
+#+OPTIONS:
+# local variables:
+# ispell-local-dictionary: "pt_BR"
+# end:

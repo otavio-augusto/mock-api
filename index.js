@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 app.use('/users', usersRoutes);
-app.use('/theme', themeRoutes);
+app.use('/themes', themeRoutes);
 
 app.listen(API_PORT, () => {
   console.log(`Server Started at ${API_PORT}`)

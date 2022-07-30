@@ -1,36 +1,32 @@
+import { writeData, readData } from '../storage/storageDriver.js'
+
 //ROTA GET PLURAL
-export function getUsers(req, res, next) {
-  const message = {
-    "message": "PLURAL GET ACKNOWLEDGED!"
-  }
-  res.status(201).send(message);
+export async function getUsers(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  const message = await readData("users.json")
+  res.status(201).json(message);
 };
 
 //ROTA GET SINGULAR
-export function getUser(req, res, next) {
-  const id = req.params.id
-  const message = {
-    "message": "SINGULAR GET ACKNOWLEDGED!",
-    "id": id
-  }
-  res.status(201).send(message);
+export async function getUser(req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  const message = await readData("users.json")
+
+  message.filter((item) => {
+    if (req.params.id == item.id)
+      res.status(201).send(item);
+  })
 };
 
 export function putUser(req, res, next) {
-  const message = {
-    "message": `PUT USER ACKNOWLEDGED!`,
-    "id": id
-  }
-  res.status(201).send(message);
+  res.status(201).send("OK");
 };
 
-export function postUser(req, res, next) {
-  const id = req.params.id
-  const message = {
-    "message": `POST USER ACKNOWLEDGED!`,
-    "id": id
-  }
-  res.status(201).send(message);
+export async function postUser(req, res, next) {
+  await writeData("users.json", req.body)
+  res.status(201).send("GOT PUT!");
 };
 
 export function deleteUser(req, res, next) {
