@@ -1,30 +1,1069 @@
-Info 0    [19:04:29.981] Starting TS Server
-Info 1    [19:04:29.982] Version: 4.7.3
-Info 2    [19:04:29.982] Arguments: /usr/bin/node /home/souza/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/souza/Organização/Recursos/Repositórios/mock-api/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/f41e4c32089594710a9db45a581fdbfd/tscancellation*
-Info 3    [19:04:29.982] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [19:04:29.982] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [19:04:30.056] Format host information updated
-Info 6    [19:04:30.079] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
-Info 7    [19:04:30.081] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
-Info 8    [19:04:30.094] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 9    [19:04:31.955] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1860.398249000311ms
-Info 10   [19:04:31.955] Project '/dev/null/inferredProject1*' (Inferred)
-Info 11   [19:04:31.955] 	Files (19)
+Info 0    [12:16:28.119] Starting TS Server
+Info 1    [12:16:28.119] Version: 4.7.4
+Info 2    [12:16:28.119] Arguments: /usr/bin/node /home/souza/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/souza/Organização/Recursos/Repositórios/mock-api/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/8f6a3f66d771c8fdb42c372219cd8f61/tscancellation*
+Info 3    [12:16:28.119] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [12:16:28.119] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [12:16:28.142] Format host information updated
+Info 6    [12:16:28.153] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 7    [12:16:28.154] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: No config files found.
+Info 8    [12:16:28.159] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [12:16:29.562] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1402.4070840012282ms
+Info 10   [12:16:29.562] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [12:16:29.562] 	Files (99)
 
-Info 12   [19:04:31.955] -----------------------------------------------
-Info 13   [19:04:31.970] AutoImportProviderProject: found 3 root files in 3 dependencies in 12.05139199923724 ms
-Info 14   [19:04:31.984] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 15   [19:04:33.144] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1159.462515999563ms
-Info 16   [19:04:33.144] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 17   [19:04:33.144] 	Files (62)
+Info 12   [12:16:29.562] -----------------------------------------------
+Info 13   [12:16:29.573] AutoImportProviderProject: found 4 root files in 4 dependencies in 8.002585999667645 ms
+Info 14   [12:16:29.592] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [12:16:29.695] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 103.44789400137961ms
+Info 16   [12:16:29.695] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [12:16:29.696] 	Files (66)
 
-Info 18   [19:04:33.144] -----------------------------------------------
-Info 19   [19:24:40.117] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 20   [19:24:40.135] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 17.736471999436617ms
-Info 21   [19:24:40.135] Different program with same set of files
-Info 22   [19:26:58.694] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 23   [19:26:58.705] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 10.96095999982208ms
-Info 24   [19:26:58.705] Different program with same set of files
-Info 25   [19:27:46.543] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 26   [19:27:46.556] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 12.915467999875546ms
-Info 27   [19:27:46.556] Different program with same set of files
+Info 18   [12:16:29.696] -----------------------------------------------
+Info 19   [12:16:56.994] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 20   [12:16:56.994] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
+Info 21   [12:16:56.994] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 22   [12:16:57.065] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 70.45255899988115ms
+Info 23   [12:16:57.065] Project '/dev/null/inferredProject2*' (Inferred)
+Info 24   [12:16:57.065] 	Files (100)
+
+Info 25   [12:16:57.065] -----------------------------------------------
+Info 26   [12:16:57.078] AutoImportProviderProject: found 4 root files in 4 dependencies in 12.270502001047134 ms
+Info 27   [12:16:57.078] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 28   [12:16:57.120] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 41.83011200092733ms
+Info 29   [12:16:57.120] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 30   [12:16:57.120] 	Files (66)
+
+Info 31   [12:16:57.120] -----------------------------------------------
+Info 32   [12:16:57.122] `remove Project::
+Info 33   [12:16:57.122] Project '/dev/null/inferredProject1*' (Inferred)
+Info 34   [12:16:57.123] 	Files (99)
+
+Info 35   [12:16:57.123] -----------------------------------------------
+Info 36   [12:16:57.123] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 37   [12:16:57.123] 	Files (66)
+
+Info 38   [12:16:57.123] -----------------------------------------------
+Info 39   [12:17:10.131] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 40   [12:17:10.131] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: No config files found.
+Info 41   [12:17:10.131] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 42   [12:17:10.145] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 13.961573999375105ms
+Info 43   [12:17:10.145] Different program with same set of files
+Info 44   [12:17:26.929] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 45   [12:17:26.930] Elapsed:: 0.23663399927318096ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 46   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 47   [12:17:26.930] Elapsed:: 0.013538999482989311ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 48   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 49   [12:17:26.930] Elapsed:: 0.018673000857234ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 50   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 51   [12:17:26.930] Elapsed:: 0.015386998653411865ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 52   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 53   [12:17:26.930] Elapsed:: 0.0122739989310503ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 54   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 55   [12:17:26.930] Elapsed:: 0.011545998975634575ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 56   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 57   [12:17:26.930] Elapsed:: 0.012067001312971115ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 58   [12:17:26.930] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 59   [12:17:26.930] Elapsed:: 0.010001000016927719ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 60   [12:17:56.228] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 61   [12:17:56.228] Elapsed:: 0.03820199891924858ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 62   [12:17:56.228] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 63   [12:17:56.228] Elapsed:: 0.00801599957048893ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 64   [12:17:56.228] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 65   [12:17:56.228] Elapsed:: 0.010405000299215317ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 66   [12:17:56.228] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 67   [12:17:56.228] Elapsed:: 0.007580999284982681ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 68   [12:17:56.228] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 69   [12:17:56.229] Elapsed:: 0.012138999998569489ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 70   [12:17:56.229] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 71   [12:17:56.229] Elapsed:: 0.005834000185132027ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 72   [12:17:56.229] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 73   [12:17:56.229] Elapsed:: 0.006495999172329903ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 74   [12:17:56.229] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 75   [12:17:56.229] Elapsed:: 0.008041998371481895ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 76   [12:21:28.773] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 77   [12:21:28.774] Elapsed:: 0.03725999966263771ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 78   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 79   [12:21:28.774] Elapsed:: 0.008332999423146248ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 80   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 81   [12:21:28.774] Elapsed:: 0.012901000678539276ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 82   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 83   [12:21:28.774] Elapsed:: 0.005367999896407127ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#userController.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 84   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 85   [12:21:28.774] Elapsed:: 0.012443000450730324ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 86   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 87   [12:21:28.774] Elapsed:: 0.010418999940156937ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 88   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 89   [12:21:28.774] Elapsed:: 0.00678899884223938ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 90   [12:21:28.774] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 91   [12:21:28.774] Elapsed:: 0.007138999179005623ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/.#controllerUtils.js :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 92   [12:22:09.554] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/routes
+Info 93   [12:22:09.554] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/routes/userRoutes.js :: No config files found.
+Info 94   [12:22:09.554] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 95   [12:22:09.664] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 109.11242699995637ms
+Info 96   [12:22:09.664] Project '/dev/null/inferredProject3*' (Inferred)
+Info 97   [12:22:09.664] 	Files (109)
+
+Info 98   [12:22:09.664] -----------------------------------------------
+Info 99   [12:22:09.670] AutoImportProviderProject: found 3 root files in 3 dependencies in 5.701625000685453 ms
+Info 100  [12:22:09.670] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject3*
+Info 101  [12:22:09.686] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 15.873781999573112ms
+Info 102  [12:22:09.686] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 103  [12:22:09.686] 	Files (58)
+
+Info 104  [12:22:09.686] -----------------------------------------------
+Info 105  [12:22:09.688] `remove Project::
+Info 106  [12:22:09.688] Project '/dev/null/inferredProject2*' (Inferred)
+Info 107  [12:22:09.688] 	Files (100)
+
+Info 108  [12:22:09.688] -----------------------------------------------
+Info 109  [12:22:09.688] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 110  [12:22:09.688] 	Files (66)
+
+Info 111  [12:22:09.688] -----------------------------------------------
+Info 112  [12:22:15.565] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 113  [12:22:15.615] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 49.35408100113273ms
+Info 114  [12:22:15.615] Different program with same set of files
+Info 115  [12:22:18.853] Format host information updated
+Info 116  [12:24:23.592] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 117  [12:24:23.593] Elapsed:: 0.028224999085068703ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 118  [12:24:23.593] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 119  [12:24:23.593] Elapsed:: 0.014407999813556671ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 120  [12:24:23.593] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 121  [12:24:23.593] Elapsed:: 0.01206899993121624ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 122  [12:24:23.593] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 123  [12:24:23.593] Elapsed:: 0.011552000418305397ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 124  [12:29:02.695] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 125  [12:29:02.696] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
+Info 126  [12:29:21.210] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 127  [12:29:21.211] Elapsed:: 0.05661400035023689ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 128  [12:29:21.211] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 129  [12:29:21.211] Elapsed:: 0.03527500107884407ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 130  [12:29:21.211] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 131  [12:29:21.211] Elapsed:: 0.02678600139915943ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 132  [12:29:21.211] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 133  [12:29:21.211] Elapsed:: 0.0229909997433424ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 134  [12:29:21.508] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 135  [12:29:21.529] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 20.23370699957013ms
+Info 136  [12:29:21.529] Different program with same set of files
+Info 137  [12:55:42.745] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 138  [12:55:42.745] Elapsed:: 0.02615399844944477ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 139  [12:55:42.745] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 140  [12:55:42.745] Elapsed:: 0.012894999235868454ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 141  [12:55:42.745] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 142  [12:55:42.745] Elapsed:: 0.01159599982202053ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 143  [12:55:42.745] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 144  [12:55:42.745] Elapsed:: 0.01162400096654892ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 145  [13:00:14.316] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 146  [13:00:14.316] Elapsed:: 0.07356500066816807ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 147  [13:00:14.316] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 148  [13:00:14.316] Elapsed:: 0.04329400137066841ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 149  [13:00:14.316] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 150  [13:00:14.317] Elapsed:: 0.044360000640153885ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 151  [13:00:14.317] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 152  [13:00:14.317] Elapsed:: 0.0496200006455183ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 153  [13:01:37.647] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 154  [13:01:37.647] Elapsed:: 0.017645999789237976ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 155  [13:01:37.647] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 156  [13:01:37.647] Elapsed:: 0.013477999716997147ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 157  [13:01:37.647] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 158  [13:01:37.647] Elapsed:: 0.010477999225258827ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 159  [13:01:37.647] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 160  [13:01:37.647] Elapsed:: 0.009919999167323112ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 161  [13:02:34.744] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 162  [13:02:34.744] Elapsed:: 0.02391200140118599ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 163  [13:02:34.744] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 164  [13:02:34.744] Elapsed:: 0.009317999705672264ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 165  [13:02:34.744] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 166  [13:02:34.745] Elapsed:: 0.008233999833464622ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 167  [13:02:34.745] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 168  [13:02:34.745] Elapsed:: 0.008410999551415443ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 169  [13:02:43.186] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 170  [13:02:43.186] Elapsed:: 0.055371999740600586ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 171  [13:02:43.186] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 172  [13:02:43.186] Elapsed:: 0.01629900000989437ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 173  [13:02:43.186] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 174  [13:02:43.186] Elapsed:: 0.050084998831152916ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 175  [13:02:43.186] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 176  [13:02:43.187] Elapsed:: 0.060940999537706375ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 177  [13:03:15.690] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 178  [13:03:15.690] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
+Info 179  [13:03:15.690] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 180  [13:03:15.701] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 10.287177000194788ms
+Info 181  [13:03:15.701] Different program with same set of files
+Info 182  [13:03:34.288] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 183  [13:03:34.299] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 11.389237999916077ms
+Info 184  [13:03:34.300] Different program with same set of files
+Info 185  [13:03:34.301] getCompletionData: Get current token: 0.029656998813152313
+Info 186  [13:03:34.301] getCompletionData: Is inside comment: 0.006281999871134758
+Info 187  [13:03:34.301] getCompletionData: Get previous token: 0.07065299898386002
+Info 188  [13:03:34.302] getCompletionsAtPosition: isCompletionListBlocker: 0.19359900057315826
+Info 189  [13:03:34.317] getExportInfoMap: cache miss or empty; calculating new results
+Info 190  [13:03:34.405] forEachExternalModuleToImportFrom autoImportProvider: 27.243201000615954
+Info 191  [13:03:34.405] getExportInfoMap: done in 88.03203700110316 ms
+Info 192  [13:03:34.413] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 193  [13:03:34.413] collectAutoImports: response is complete
+Info 194  [13:03:34.413] collectAutoImports: 6.5086320005357265
+Info 195  [13:03:34.413] getCompletionData: Semantic work: 111.2881770003587
+Info 196  [13:03:34.454] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 41.05066099949181
+Info 197  [13:03:35.023] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 198  [13:03:35.036] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 13.114903001114726ms
+Info 199  [13:03:35.036] Different program with same set of files
+Info 200  [13:03:37.727] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 201  [13:03:37.754] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 25.926051000133157ms
+Info 202  [13:03:37.754] Different program with same set of files
+Info 203  [13:03:42.450] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 204  [13:03:42.470] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 20.293000999838114ms
+Info 205  [13:03:42.470] Different program with same set of files
+Info 206  [13:03:42.474] getCompletionData: Get current token: 0.058605000376701355
+Info 207  [13:03:42.474] getCompletionData: Is inside comment: 0.08868899941444397
+Info 208  [13:03:42.474] getCompletionData: Get previous token: 0.12997600063681602
+Info 209  [13:03:42.475] getCompletionsAtPosition: isCompletionListBlocker: 0.15472500026226044
+Info 210  [13:03:42.484] getExportInfoMap: cache hit
+Info 211  [13:03:42.560] collectAutoImports: resolved 5 module specifiers, plus 0 ambient and 33 from cache
+Info 212  [13:03:42.560] collectAutoImports: response is complete
+Info 213  [13:03:42.560] collectAutoImports: 76.27629899978638
+Info 214  [13:03:42.561] getCompletionData: Semantic work: 85.83914100006223
+Info 215  [13:03:42.585] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.701911000534892
+Info 216  [13:03:43.337] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 217  [13:03:43.358] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 20.00912499986589ms
+Info 218  [13:03:43.358] Different program with same set of files
+Info 219  [13:03:45.860] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 220  [13:03:45.883] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 22.555265000090003ms
+Info 221  [13:03:45.883] Different program with same set of files
+Info 222  [13:03:45.885] getCompletionData: Get current token: 0.9281369987875223
+Info 223  [13:03:45.886] getCompletionData: Is inside comment: 0.01926399953663349
+Info 224  [13:03:45.886] getCompletionData: Get previous token: 0.2624120004475117
+Info 225  [13:03:45.886] getCompletionsAtPosition: isCompletionListBlocker: 0.03909599967300892
+Info 226  [13:03:45.894] getExportInfoMap: cache hit
+Info 227  [13:03:45.897] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 228  [13:03:45.897] collectAutoImports: response is complete
+Info 229  [13:03:45.897] collectAutoImports: 2.9552100002765656
+Info 230  [13:03:45.897] getCompletionData: Semantic work: 10.816761000081897
+Info 231  [13:03:45.924] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.458592999726534
+Info 232  [13:03:46.210] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 233  [13:03:46.220] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 9.99966799840331ms
+Info 234  [13:03:46.220] Different program with same set of files
+Info 235  [13:03:46.221] getCompletionData: Get current token: 0.010784000158309937
+Info 236  [13:03:46.221] getCompletionData: Is inside comment: 0.004576001316308975
+Info 237  [13:03:46.221] getCompletionData: Get previous token: 0.060750000178813934
+Info 238  [13:03:46.221] getCompletionsAtPosition: isCompletionListBlocker: 0.02937299944460392
+Info 239  [13:03:46.225] getExportInfoMap: cache hit
+Info 240  [13:03:46.232] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 241  [13:03:46.232] collectAutoImports: response is complete
+Info 242  [13:03:46.232] collectAutoImports: 6.5211479999125
+Info 243  [13:03:46.232] getCompletionData: Semantic work: 10.52411799877882
+Info 244  [13:03:46.259] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 26.60639499872923
+Info 245  [13:03:46.261] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 246  [13:03:46.274] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 13.042574999853969ms
+Info 247  [13:03:46.274] Different program with same set of files
+Info 248  [13:03:46.274] getCompletionData: Get current token: 0.012244999408721924
+Info 249  [13:03:46.274] getCompletionData: Is inside comment: 0.008083000779151917
+Info 250  [13:03:46.275] getCompletionData: Get previous token: 0.053473999723792076
+Info 251  [13:03:46.275] getCompletionsAtPosition: isCompletionListBlocker: 0.017099998891353607
+Info 252  [13:03:46.278] getExportInfoMap: cache hit
+Info 253  [13:03:46.280] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 254  [13:03:46.280] collectAutoImports: response is complete
+Info 255  [13:03:46.280] collectAutoImports: 1.5158569999039173
+Info 256  [13:03:46.280] getCompletionData: Semantic work: 5.286896999925375
+Info 257  [13:03:46.306] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.0655440017581
+Info 258  [13:03:46.524] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 259  [13:03:46.559] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 35.21568400040269ms
+Info 260  [13:03:46.559] Different program with same set of files
+Info 261  [13:03:50.387] Format host information updated
+Info 262  [13:03:50.608] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 263  [13:03:50.616] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 7.553209001198411ms
+Info 264  [13:03:50.616] Different program with same set of files
+Info 265  [13:04:20.776] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 266  [13:04:20.776] Elapsed:: 0.30652499943971634ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 267  [13:04:20.776] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 268  [13:04:20.777] Elapsed:: 0.03156000003218651ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 269  [13:04:20.777] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 270  [13:04:20.777] Elapsed:: 0.026579000055789948ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 271  [13:04:20.777] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 272  [13:04:20.777] Elapsed:: 0.0225909985601902ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 273  [13:04:25.448] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 274  [13:04:25.479] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 31.455136001110077ms
+Info 275  [13:04:25.479] Different program with same set of files
+Info 276  [13:04:39.452] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 277  [13:04:39.471] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 18.247215999290347ms
+Info 278  [13:04:39.471] Different program with same set of files
+Info 279  [13:04:40.176] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 280  [13:04:40.195] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 18.681768000125885ms
+Info 281  [13:04:40.195] Different program with same set of files
+Info 282  [13:04:41.482] Format host information updated
+Info 283  [13:04:41.706] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 284  [13:04:41.715] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 9.122449999675155ms
+Info 285  [13:04:41.715] Different program with same set of files
+Info 286  [13:04:44.221] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 287  [13:04:44.233] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 11.141202000901103ms
+Info 288  [13:04:44.233] Different program with same set of files
+Info 289  [13:04:50.563] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 290  [13:04:50.563] Elapsed:: 0.02527100034058094ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 291  [13:04:50.563] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 292  [13:04:50.563] Elapsed:: 0.013415001332759857ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 293  [13:05:07.997] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers
+Info 294  [13:05:07.997] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js :: No config files found.
+Info 295  [13:05:07.997] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 296  [13:05:08.014] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 17.101056000217795ms
+Info 297  [13:05:08.014] Different program with same set of files
+Info 298  [13:05:29.359] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 299  [13:05:29.359] Elapsed:: 0.03382499888539314ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 300  [13:05:29.359] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 301  [13:05:29.359] Elapsed:: 0.017532000318169594ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 302  [13:05:29.359] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 303  [13:05:29.359] Elapsed:: 0.015120001509785652ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 304  [13:05:29.359] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 305  [13:05:29.359] Elapsed:: 0.015355000272393227ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 306  [13:05:30.311] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 307  [13:05:30.345] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 33.777217999100685ms
+Info 308  [13:05:30.345] Different program with same set of files
+Info 309  [13:05:47.778] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 310  [13:05:47.778] Elapsed:: 0.08745200000703335ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 311  [13:05:47.778] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 312  [13:05:47.778] Elapsed:: 0.020361000671982765ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 313  [13:05:47.778] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 314  [13:05:47.778] Elapsed:: 0.036549000069499016ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 315  [13:05:47.778] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 316  [13:05:47.778] Elapsed:: 0.014915000647306442ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 317  [13:06:35.401] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 318  [13:06:35.408] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 7.324576999992132ms
+Info 319  [13:06:35.408] Different program with same set of files
+Info 320  [13:06:37.119] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 321  [13:06:37.120] Elapsed:: 0.029736999422311783ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 322  [13:06:37.120] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 323  [13:06:37.120] Elapsed:: 0.012756001204252243ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 324  [13:06:37.120] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 325  [13:06:37.120] Elapsed:: 0.011565001681447029ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 326  [13:06:37.120] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 327  [13:06:37.120] Elapsed:: 0.01020899973809719ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 328  [13:06:43.051] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 329  [13:06:43.071] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 19.274165000766516ms
+Info 330  [13:06:43.071] Different program with same set of files
+Info 331  [13:07:21.113] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 332  [13:07:21.113] Elapsed:: 0.032186999917030334ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 333  [13:07:21.113] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 334  [13:07:21.113] Elapsed:: 0.015017999336123466ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 335  [13:07:21.113] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 336  [13:07:21.113] Elapsed:: 0.010436000302433968ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 337  [13:07:21.113] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 338  [13:07:21.113] Elapsed:: 0.009387999773025513ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 339  [13:07:21.529] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 340  [13:07:21.544] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 13.995786000043154ms
+Info 341  [13:07:21.544] Different program with same set of files
+Info 342  [13:09:54.017] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 343  [13:09:54.017] Elapsed:: 0.10507499985396862ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 344  [13:09:54.017] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 345  [13:09:54.017] Elapsed:: 0.17207800038158894ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 346  [13:09:54.017] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 347  [13:09:54.017] Elapsed:: 0.17949300073087215ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/bootstrap :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 348  [13:09:55.521] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 349  [13:09:55.521] Elapsed:: 0.023624001070857048ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 350  [13:09:55.521] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 351  [13:09:55.521] Elapsed:: 0.050543999299407005ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 352  [13:09:55.521] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 353  [13:09:55.522] Elapsed:: 0.8301580008119345ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 354  [13:09:56.773] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 355  [13:09:56.934] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 25 structureChanged: true structureIsReused:: SafeModules Elapsed: 160.58734700083733ms
+Info 356  [13:09:56.934] Different program with same set of files
+Info 357  [13:09:59.024] Before ensureProjectForOpenFiles:
+Info 358  [13:09:59.024] After ensureProjectForOpenFiles:
+Info 359  [13:09:59.024] got projects updated in background, updating diagnostics for /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/routes/userRoutes.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js
+Info 360  [13:11:56.482] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 361  [13:11:56.482] Elapsed:: 0.029391998425126076ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 362  [13:11:56.482] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 363  [13:11:56.482] Elapsed:: 0.05480699986219406ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 364  [13:11:57.733] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 365  [13:11:57.787] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 26 structureChanged: true structureIsReused:: SafeModules Elapsed: 53.649534000083804ms
+Info 366  [13:11:57.787] Different program with same set of files
+Info 367  [13:11:58.607] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 368  [13:11:58.607] Elapsed:: 0.021441999822854996ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 369  [13:11:58.607] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 370  [13:11:58.607] Elapsed:: 0.047616999596357346ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules :: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 371  [13:11:59.721] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/LICENSE 0:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 372  [13:11:59.721] Elapsed:: 0.0969459991902113ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/LICENSE 0:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 373  [13:11:59.721] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/README.md 1:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 374  [13:11:59.721] Elapsed:: 0.04993999935686588ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/README.md 1:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 375  [13:11:59.721] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/index.d.ts 2:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 376  [13:11:59.722] Elapsed:: 1.0451610013842583ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/index.d.ts 2:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 377  [13:11:59.723] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/package.json 3:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 378  [13:11:59.723] Elapsed:: 0.14048800058662891ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/package.json 3:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject3* WatchType: Failed Lookup Locations
+Info 379  [13:11:59.723] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/LICENSE 0:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 380  [13:11:59.723] Elapsed:: 0.07727899961173534ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/LICENSE 0:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 381  [13:11:59.723] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/README.md 1:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 382  [13:11:59.723] Elapsed:: 0.06036499887704849ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/README.md 1:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 383  [13:11:59.723] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/index.d.ts 2:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 384  [13:11:59.724] Elapsed:: 0.2553630005568266ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/index.d.ts 2:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 385  [13:11:59.724] DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/package.json 3:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 386  [13:11:59.724] Elapsed:: 0.276010999456048ms DirectoryWatcher:: Triggered with /home/souza/.cache/typescript/4.7/node_modules/@types/co/package.json 3:: WatchInfo: /home/souza/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 387  [13:11:59.858] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 388  [13:11:59.931] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 27 structureChanged: true structureIsReused:: SafeModules Elapsed: 72.84460099972785ms
+Info 389  [13:11:59.931] Different program with same set of files
+Info 390  [13:12:02.109] Before ensureProjectForOpenFiles:
+Info 391  [13:12:02.109] After ensureProjectForOpenFiles:
+Info 392  [13:12:02.109] got projects updated in background, updating diagnostics for /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/routes/userRoutes.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js
+Info 393  [13:12:35.214] Search path: /home/souza/Organização/Recursos/Repositórios/mock-api
+Info 394  [13:12:35.214] For info: /home/souza/Organização/Recursos/Repositórios/mock-api/index.js :: No config files found.
+Info 395  [13:12:35.219] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 396  [13:12:35.276] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 57.1250120010227ms
+Info 397  [13:12:35.276] Project '/dev/null/inferredProject4*' (Inferred)
+Info 398  [13:12:35.276] 	Files (113)
+
+Info 399  [13:12:35.276] -----------------------------------------------
+Info 400  [13:12:35.284] AutoImportProviderProject: found 2 root files in 2 dependencies in 6.1833089999854565 ms
+Info 401  [13:12:35.285] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject4*
+Info 402  [13:12:35.306] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject4* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 20.928034000098705ms
+Info 403  [13:12:35.307] Project '/dev/null/autoImportProviderProject4*' (AutoImportProvider)
+Info 404  [13:12:35.307] 	Files (57)
+
+Info 405  [13:12:35.307] -----------------------------------------------
+Info 406  [13:12:35.308] `remove Project::
+Info 407  [13:12:35.309] Project '/dev/null/inferredProject3*' (Inferred)
+Info 408  [13:12:35.309] 	Files (109)
+
+Info 409  [13:12:35.309] -----------------------------------------------
+Info 410  [13:12:35.309] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 411  [13:12:35.309] 	Files (58)
+
+Info 412  [13:12:35.309] -----------------------------------------------
+Info 413  [13:12:35.551] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 414  [13:12:35.645] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 93.62091100029647ms
+Info 415  [13:12:35.645] Project '/dev/null/inferredProject4*' (Inferred)
+Info 416  [13:12:35.645] 	Files (118)
+
+Info 417  [13:12:35.645] -----------------------------------------------
+Info 418  [13:12:35.645] Project '/dev/null/autoImportProviderProject4*' (AutoImportProvider)
+Info 419  [13:12:35.645] 	Files (57)
+
+Info 420  [13:12:35.645] -----------------------------------------------
+Info 421  [13:12:38.051] Before ensureProjectForOpenFiles:
+Info 422  [13:12:38.051] After ensureProjectForOpenFiles:
+Info 423  [13:12:38.051] got projects updated in background, updating diagnostics for /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/routes/userRoutes.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js,/home/souza/Organização/Recursos/Repositórios/mock-api/index.js
+Info 424  [13:12:43.613] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 425  [13:12:43.629] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 16.107996998354793ms
+Info 426  [13:12:43.629] Different program with same set of files
+Info 427  [13:12:44.390] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 428  [13:12:44.419] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 29.348528999835253ms
+Info 429  [13:12:44.419] Different program with same set of files
+Info 430  [13:12:47.093] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 431  [13:12:47.112] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 19.110161000862718ms
+Info 432  [13:12:47.113] Different program with same set of files
+Info 433  [13:12:47.949] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 434  [13:12:47.966] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 16.935877000913024ms
+Info 435  [13:12:47.966] Different program with same set of files
+Info 436  [13:12:48.959] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 437  [13:12:48.976] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 17.120205000042915ms
+Info 438  [13:12:48.977] Different program with same set of files
+Info 439  [13:12:48.981] getCompletionData: Get current token: 0.07347400113940239
+Info 440  [13:12:48.981] getCompletionData: Is inside comment: 0.09118900075554848
+Info 441  [13:12:48.982] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 442  [13:12:48.988] getCompletionData: Get current token: 0.09576999954879284
+Info 443  [13:12:48.989] getCompletionData: Is inside comment: 0.216261999681592
+Info 444  [13:12:48.989] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 445  [13:12:49.012] getCompletionData: Get current token: 0.008450999855995178
+Info 446  [13:12:49.012] getCompletionData: Is inside comment: 0.02151300013065338
+Info 447  [13:12:49.012] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 448  [13:12:49.017] getCompletionData: Get current token: 0.0075599998235702515
+Info 449  [13:12:49.017] getCompletionData: Is inside comment: 0.02507600001990795
+Info 450  [13:12:49.017] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 451  [13:12:49.255] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 452  [13:12:49.261] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 6.522955000400543ms
+Info 453  [13:12:49.261] Different program with same set of files
+Info 454  [13:12:49.262] getCompletionData: Get current token: 0.013213999569416046
+Info 455  [13:12:49.262] getCompletionData: Is inside comment: 0.042816998437047005
+Info 456  [13:12:49.262] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 457  [13:12:49.307] getCompletionData: Get current token: 0.006510000675916672
+Info 458  [13:12:49.307] getCompletionData: Is inside comment: 0.021807000041007996
+Info 459  [13:12:49.307] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 460  [13:12:49.328] getCompletionData: Get current token: 0.010917998850345612
+Info 461  [13:12:49.328] getCompletionData: Is inside comment: 0.019990000873804092
+Info 462  [13:12:49.328] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 463  [13:12:49.351] getCompletionData: Get current token: 0.006519000977277756
+Info 464  [13:12:49.351] getCompletionData: Is inside comment: 0.018494000658392906
+Info 465  [13:12:49.351] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 466  [13:12:49.408] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 467  [13:12:49.413] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 4.522625999525189ms
+Info 468  [13:12:49.413] Different program with same set of files
+Info 469  [13:12:49.413] getCompletionData: Get current token: 0.011097999289631844
+Info 470  [13:12:49.413] getCompletionData: Is inside comment: 0.02398199960589409
+Info 471  [13:12:49.414] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 472  [13:12:49.429] getCompletionData: Get current token: 0.010972000658512115
+Info 473  [13:12:49.429] getCompletionData: Is inside comment: 0.02304299920797348
+Info 474  [13:12:49.429] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 475  [13:12:49.431] getCompletionData: Get current token: 0.0065349992364645
+Info 476  [13:12:49.431] getCompletionData: Is inside comment: 0.019241999834775925
+Info 477  [13:12:49.431] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 478  [13:12:49.454] getCompletionData: Get current token: 0.006920000538229942
+Info 479  [13:12:49.454] getCompletionData: Is inside comment: 0.018174000084400177
+Info 480  [13:12:49.454] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 481  [13:12:49.715] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 482  [13:12:49.722] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 7.242156000807881ms
+Info 483  [13:12:49.722] Different program with same set of files
+Info 484  [13:12:49.723] getCompletionData: Get current token: 0.008355999365448952
+Info 485  [13:12:49.723] getCompletionData: Is inside comment: 0.019315999001264572
+Info 486  [13:12:49.723] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 487  [13:12:49.730] getCompletionData: Get current token: 0.006281999871134758
+Info 488  [13:12:49.730] getCompletionData: Is inside comment: 0.01797500066459179
+Info 489  [13:12:49.730] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 490  [13:12:49.733] getCompletionData: Get current token: 0.03834700025618076
+Info 491  [13:12:49.733] getCompletionData: Is inside comment: 0.03204899840056896
+Info 492  [13:12:49.733] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 493  [13:12:49.738] getCompletionData: Get current token: 0.014650998637080193
+Info 494  [13:12:49.738] getCompletionData: Is inside comment: 0.02293499931693077
+Info 495  [13:12:49.738] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 496  [13:12:49.875] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 497  [13:12:49.880] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 5.398504000157118ms
+Info 498  [13:12:49.880] Different program with same set of files
+Info 499  [13:12:49.881] getCompletionData: Get current token: 0.010950000956654549
+Info 500  [13:12:49.881] getCompletionData: Is inside comment: 0.025724999606609344
+Info 501  [13:12:49.881] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 502  [13:12:49.887] getCompletionData: Get current token: 0.009270001202821732
+Info 503  [13:12:49.887] getCompletionData: Is inside comment: 0.026711998507380486
+Info 504  [13:12:49.887] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 505  [13:12:49.910] getCompletionData: Get current token: 0.008024999871850014
+Info 506  [13:12:49.910] getCompletionData: Is inside comment: 0.021824998781085014
+Info 507  [13:12:49.910] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 508  [13:12:49.929] getCompletionData: Get current token: 0.00696600042283535
+Info 509  [13:12:49.929] getCompletionData: Is inside comment: 0.020407000556588173
+Info 510  [13:12:49.929] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 511  [13:12:50.059] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 512  [13:12:50.063] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 3.7444230001419783ms
+Info 513  [13:12:50.063] Different program with same set of files
+Info 514  [13:12:50.851] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 515  [13:12:50.873] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 21.709510998800397ms
+Info 516  [13:12:50.873] Different program with same set of files
+Info 517  [13:12:50.874] getCompletionData: Get current token: 0.028692999854683876
+Info 518  [13:12:50.874] getCompletionData: Is inside comment: 0.06522499956190586
+Info 519  [13:12:50.874] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 520  [13:12:50.879] getCompletionData: Get current token: 0.010514000430703163
+Info 521  [13:12:50.879] getCompletionData: Is inside comment: 0.029471000656485558
+Info 522  [13:12:50.879] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 523  [13:12:50.902] getCompletionData: Get current token: 0.00648999959230423
+Info 524  [13:12:50.902] getCompletionData: Is inside comment: 0.019617000594735146
+Info 525  [13:12:50.902] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 526  [13:12:50.924] getCompletionData: Get current token: 0.012509999796748161
+Info 527  [13:12:50.925] getCompletionData: Is inside comment: 0.01960100047290325
+Info 528  [13:12:50.925] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 529  [13:12:51.247] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 530  [13:12:51.261] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 14.370443999767303ms
+Info 531  [13:12:51.261] Different program with same set of files
+Info 532  [13:12:51.263] getCompletionData: Get current token: 0.07365999929606915
+Info 533  [13:12:51.264] getCompletionData: Is inside comment: 0.26189300045371056
+Info 534  [13:12:51.264] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 535  [13:12:51.265] getCompletionData: Get current token: 0.02480500005185604
+Info 536  [13:12:51.265] getCompletionData: Is inside comment: 0.07123399898409843
+Info 537  [13:12:51.265] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 538  [13:12:51.266] getCompletionData: Get current token: 0.025344999507069588
+Info 539  [13:12:51.266] getCompletionData: Is inside comment: 0.10724600031971931
+Info 540  [13:12:51.266] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 541  [13:12:51.267] getCompletionData: Get current token: 0.03145100176334381
+Info 542  [13:12:51.267] getCompletionData: Is inside comment: 0.08830099925398827
+Info 543  [13:12:51.267] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 544  [13:12:51.321] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 545  [13:12:51.324] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 3.0931770000606775ms
+Info 546  [13:12:51.324] Different program with same set of files
+Info 547  [13:12:51.469] getCompletionData: Get current token: 0.022189000621438026
+Info 548  [13:12:51.469] getCompletionData: Is inside comment: 0.04891600087285042
+Info 549  [13:12:51.469] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 550  [13:12:51.486] getCompletionData: Get current token: 0.02924099937081337
+Info 551  [13:12:51.486] getCompletionData: Is inside comment: 0.06573699973523617
+Info 552  [13:12:51.486] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 553  [13:12:51.514] getCompletionData: Get current token: 0.012469999492168427
+Info 554  [13:12:51.514] getCompletionData: Is inside comment: 0.03154200129210949
+Info 555  [13:12:51.514] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 556  [13:12:51.515] getCompletionData: Get current token: 0.010787999257445335
+Info 557  [13:12:51.515] getCompletionData: Is inside comment: 0.027900999411940575
+Info 558  [13:12:51.515] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 559  [13:12:52.765] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 560  [13:12:52.779] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 14.126857001334429ms
+Info 561  [13:12:52.779] Different program with same set of files
+Info 562  [13:12:52.780] getCompletionData: Get current token: 0.045013001188635826
+Info 563  [13:12:52.780] getCompletionData: Is inside comment: 0.05145999975502491
+Info 564  [13:12:52.780] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 565  [13:12:52.829] getCompletionData: Get current token: 0.009850000962615013
+Info 566  [13:12:52.829] getCompletionData: Is inside comment: 0.025241998955607414
+Info 567  [13:12:52.829] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 568  [13:12:52.851] getCompletionData: Get current token: 0.0065379999577999115
+Info 569  [13:12:52.851] getCompletionData: Is inside comment: 0.01981700025498867
+Info 570  [13:12:52.851] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 571  [13:12:52.874] getCompletionData: Get current token: 0.009514998644590378
+Info 572  [13:12:52.874] getCompletionData: Is inside comment: 0.025511998683214188
+Info 573  [13:12:52.874] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 574  [13:12:53.310] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 575  [13:12:53.324] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 14.337407000362873ms
+Info 576  [13:12:53.324] Different program with same set of files
+Info 577  [13:12:53.326] getCompletionData: Get current token: 0.03107600100338459
+Info 578  [13:12:53.326] getCompletionData: Is inside comment: 0.059158001095056534
+Info 579  [13:12:53.326] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 580  [13:12:53.368] getCompletionData: Get current token: 0.010611001402139664
+Info 581  [13:12:53.369] getCompletionData: Is inside comment: 0.025816000998020172
+Info 582  [13:12:53.369] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 583  [13:12:53.374] getCompletionData: Get current token: 0.013586999848484993
+Info 584  [13:12:53.374] getCompletionData: Is inside comment: 0.017727000638842583
+Info 585  [13:12:53.374] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 586  [13:12:53.387] getCompletionData: Get current token: 0.0061799995601177216
+Info 587  [13:12:53.387] getCompletionData: Is inside comment: 0.017874998971819878
+Info 588  [13:12:53.387] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 589  [13:12:53.643] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 590  [13:12:53.660] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 17.269652999937534ms
+Info 591  [13:12:53.660] Different program with same set of files
+Info 592  [13:12:54.302] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 593  [13:12:54.308] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 6.448770999908447ms
+Info 594  [13:12:54.309] Different program with same set of files
+Info 595  [13:12:54.716] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 596  [13:12:54.735] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 19.213279999792576ms
+Info 597  [13:12:54.736] Different program with same set of files
+Info 598  [13:12:54.738] getCompletionData: Get current token: 0.0356610007584095
+Info 599  [13:12:54.738] getCompletionData: Is inside comment: 0.06472999975085258
+Info 600  [13:12:54.738] getCompletionData: Get previous token: 0.07535299845039845
+Info 601  [13:12:54.739] getCompletionsAtPosition: isCompletionListBlocker: 0.7569239996373653
+Info 602  [13:12:54.760] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject4*
+Info 603  [13:12:54.762] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject4* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 1.5710419993847609ms
+Info 604  [13:12:54.762] Project '/dev/null/autoImportProviderProject4*' (AutoImportProvider)
+Info 605  [13:12:54.762] 	Files (0)
+
+Info 606  [13:12:54.762] -----------------------------------------------
+Info 607  [13:12:54.763] getExportInfoMap: cache miss or empty; calculating new results
+Info 608  [13:12:54.796] getExportInfoMap: done in 45.031078999862075 ms
+Info 609  [13:12:54.810] collectAutoImports: resolved 1 module specifiers, plus 0 ambient and 0 from cache
+Info 610  [13:12:54.810] collectAutoImports: response is complete
+Info 611  [13:12:54.810] collectAutoImports: 12.775325000286102
+Info 612  [13:12:54.810] getCompletionData: Semantic work: 69.99443500116467
+Info 613  [13:12:54.832] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.727210000157356
+Info 614  [13:12:54.864] getCompletionData: Get current token: 0.005917999893426895
+Info 615  [13:12:54.864] getCompletionData: Is inside comment: 0.01641099900007248
+Info 616  [13:12:54.864] getCompletionData: Get previous token: 0.016491999849677086
+Info 617  [13:12:54.865] getCompletionsAtPosition: isCompletionListBlocker: 0.008587999269366264
+Info 618  [13:12:54.868] getExportInfoMap: cache hit
+Info 619  [13:12:54.873] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 620  [13:12:54.873] collectAutoImports: response is complete
+Info 621  [13:12:54.873] collectAutoImports: 4.361129999160767
+Info 622  [13:12:54.873] getCompletionData: Semantic work: 8.447111001238227
+Info 623  [13:12:54.898] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.383267000317574
+Info 624  [13:12:54.902] getCompletionData: Get current token: 0.012251000851392746
+Info 625  [13:12:54.902] getCompletionData: Is inside comment: 0.027389999479055405
+Info 626  [13:12:54.902] getCompletionData: Get previous token: 0.026287999004125595
+Info 627  [13:12:54.902] getCompletionsAtPosition: isCompletionListBlocker: 0.012019000947475433
+Info 628  [13:12:54.906] getExportInfoMap: cache hit
+Info 629  [13:12:54.910] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 630  [13:12:54.910] collectAutoImports: response is complete
+Info 631  [13:12:54.910] collectAutoImports: 3.6635229997336864
+Info 632  [13:12:54.910] getCompletionData: Semantic work: 7.6617729999125
+Info 633  [13:12:54.921] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.66478400118649
+Info 634  [13:12:54.922] getCompletionData: Get current token: 0.005275998264551163
+Info 635  [13:12:54.922] getCompletionData: Is inside comment: 0.01552099920809269
+Info 636  [13:12:54.922] getCompletionData: Get previous token: 0.014784999191761017
+Info 637  [13:12:54.923] getCompletionsAtPosition: isCompletionListBlocker: 0.00991399958729744
+Info 638  [13:12:54.925] getExportInfoMap: cache hit
+Info 639  [13:12:54.933] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 640  [13:12:54.933] collectAutoImports: response is complete
+Info 641  [13:12:54.934] collectAutoImports: 8.529438000172377
+Info 642  [13:12:54.934] getCompletionData: Semantic work: 11.036101000383496
+Info 643  [13:12:54.952] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.064283000305295
+Info 644  [13:12:54.955] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 645  [13:12:54.962] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 6.801489001139998ms
+Info 646  [13:12:54.962] Different program with same set of files
+Info 647  [13:12:55.129] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 648  [13:12:55.140] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 10.198223998770118ms
+Info 649  [13:12:55.140] Different program with same set of files
+Info 650  [13:12:55.493] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 651  [13:12:55.510] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 16.939479999244213ms
+Info 652  [13:12:55.510] Different program with same set of files
+Info 653  [13:12:55.867] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 654  [13:12:55.883] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 15.241793001070619ms
+Info 655  [13:12:55.883] Different program with same set of files
+Info 656  [13:12:55.884] getCompletionData: Get current token: 0.03489299863576889
+Info 657  [13:12:55.884] getCompletionData: Is inside comment: 0.07291200011968613
+Info 658  [13:12:55.885] getCompletionData: Get previous token: 0.15386000089347363
+Info 659  [13:12:55.885] getCompletionsAtPosition: isCompletionListBlocker: 0.059936000034213066
+Info 660  [13:12:55.910] getExportInfoMap: cache hit
+Info 661  [13:12:55.916] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 662  [13:12:55.916] collectAutoImports: response is complete
+Info 663  [13:12:55.916] collectAutoImports: 4.728016000241041
+Info 664  [13:12:55.916] getCompletionData: Semantic work: 30.918984999880195
+Info 665  [13:12:55.935] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.803524000570178
+Info 666  [13:12:55.940] getCompletionData: Get current token: 0.01209300011396408
+Info 667  [13:12:55.940] getCompletionData: Is inside comment: 0.030907999724149704
+Info 668  [13:12:55.940] getCompletionData: Get previous token: 0.03665600158274174
+Info 669  [13:12:55.940] getCompletionsAtPosition: isCompletionListBlocker: 0.01545100100338459
+Info 670  [13:12:55.945] getExportInfoMap: cache hit
+Info 671  [13:12:55.951] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 672  [13:12:55.951] collectAutoImports: response is complete
+Info 673  [13:12:55.951] collectAutoImports: 5.875985000282526
+Info 674  [13:12:55.951] getCompletionData: Semantic work: 10.689084999263287
+Info 675  [13:12:55.967] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.144256999716163
+Info 676  [13:12:55.970] getCompletionData: Get current token: 0.009498000144958496
+Info 677  [13:12:55.970] getCompletionData: Is inside comment: 0.02441300079226494
+Info 678  [13:12:55.970] getCompletionData: Get previous token: 0.027174999937415123
+Info 679  [13:12:55.970] getCompletionsAtPosition: isCompletionListBlocker: 0.013204999268054962
+Info 680  [13:12:55.973] getExportInfoMap: cache hit
+Info 681  [13:12:55.993] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 682  [13:12:55.993] collectAutoImports: response is complete
+Info 683  [13:12:55.994] collectAutoImports: 19.980076000094414
+Info 684  [13:12:55.994] getCompletionData: Semantic work: 23.206027001142502
+Info 685  [13:12:56.009] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.614903999492526
+Info 686  [13:12:56.012] getCompletionData: Get current token: 0.009351000189781189
+Info 687  [13:12:56.012] getCompletionData: Is inside comment: 0.022546999156475067
+Info 688  [13:12:56.012] getCompletionData: Get previous token: 0.024914000183343887
+Info 689  [13:12:56.012] getCompletionsAtPosition: isCompletionListBlocker: 0.013651000335812569
+Info 690  [13:12:56.015] getExportInfoMap: cache hit
+Info 691  [13:12:56.018] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 692  [13:12:56.018] collectAutoImports: response is complete
+Info 693  [13:12:56.018] collectAutoImports: 2.619326999410987
+Info 694  [13:12:56.018] getCompletionData: Semantic work: 5.934514999389648
+Info 695  [13:12:56.029] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.914537001401186
+Info 696  [13:12:56.031] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 697  [13:12:56.035] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 3.5678430013358593ms
+Info 698  [13:12:56.035] Different program with same set of files
+Info 699  [13:12:56.035] getCompletionData: Get current token: 0.008218999952077866
+Info 700  [13:12:56.035] getCompletionData: Is inside comment: 0.018543001264333725
+Info 701  [13:12:56.035] getCompletionData: Get previous token: 0.020713001489639282
+Info 702  [13:12:56.035] getCompletionsAtPosition: isCompletionListBlocker: 0.022296998649835587
+Info 703  [13:12:56.042] getExportInfoMap: cache hit
+Info 704  [13:12:56.046] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 705  [13:12:56.046] collectAutoImports: response is complete
+Info 706  [13:12:56.046] collectAutoImports: 3.047757999971509
+Info 707  [13:12:56.046] getCompletionData: Semantic work: 10.695447999984026
+Info 708  [13:12:56.056] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.312521999701858
+Info 709  [13:12:56.128] getCompletionData: Get current token: 0.009237000718712807
+Info 710  [13:12:56.128] getCompletionData: Is inside comment: 0.023346999660134315
+Info 711  [13:12:56.128] getCompletionData: Get previous token: 0.02257000096142292
+Info 712  [13:12:56.128] getCompletionsAtPosition: isCompletionListBlocker: 0.02196200005710125
+Info 713  [13:12:56.131] getExportInfoMap: cache hit
+Info 714  [13:12:56.133] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 715  [13:12:56.133] collectAutoImports: response is complete
+Info 716  [13:12:56.133] collectAutoImports: 1.6603679992258549
+Info 717  [13:12:56.133] getCompletionData: Semantic work: 4.840330000966787
+Info 718  [13:12:56.145] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.351082999259233
+Info 719  [13:12:56.147] getCompletionData: Get current token: 0.0066919997334480286
+Info 720  [13:12:56.147] getCompletionData: Is inside comment: 0.018373999744653702
+Info 721  [13:12:56.147] getCompletionData: Get previous token: 0.01665000058710575
+Info 722  [13:12:56.147] getCompletionsAtPosition: isCompletionListBlocker: 0.011633999645709991
+Info 723  [13:12:56.150] getExportInfoMap: cache hit
+Info 724  [13:12:56.152] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 725  [13:12:56.152] collectAutoImports: response is complete
+Info 726  [13:12:56.152] collectAutoImports: 1.4887809995561838
+Info 727  [13:12:56.152] getCompletionData: Semantic work: 4.604643998667598
+Info 728  [13:12:56.158] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.073192998766899
+Info 729  [13:12:56.160] getCompletionData: Get current token: 0.006161998957395554
+Info 730  [13:12:56.160] getCompletionData: Is inside comment: 0.01688999868929386
+Info 731  [13:12:56.160] getCompletionData: Get previous token: 0.014964999631047249
+Info 732  [13:12:56.160] getCompletionsAtPosition: isCompletionListBlocker: 0.011080000549554825
+Info 733  [13:12:56.162] getExportInfoMap: cache hit
+Info 734  [13:12:56.164] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 735  [13:12:56.164] collectAutoImports: response is complete
+Info 736  [13:12:56.164] collectAutoImports: 1.5837149992585182
+Info 737  [13:12:56.164] getCompletionData: Semantic work: 4.1112309992313385
+Info 738  [13:12:56.170] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.866347000002861
+Info 739  [13:12:56.171] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 740  [13:12:56.175] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 3.1481619998812675ms
+Info 741  [13:12:56.175] Different program with same set of files
+Info 742  [13:12:56.175] getCompletionData: Get current token: 0.007551001384854317
+Info 743  [13:12:56.175] getCompletionData: Is inside comment: 0.016315000131726265
+Info 744  [13:12:56.175] getCompletionData: Get previous token: 0.02018899843096733
+Info 745  [13:12:56.175] getCompletionsAtPosition: isCompletionListBlocker: 0.023202000185847282
+Info 746  [13:12:56.182] getExportInfoMap: cache hit
+Info 747  [13:12:56.184] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 748  [13:12:56.184] collectAutoImports: response is complete
+Info 749  [13:12:56.184] collectAutoImports: 1.3594540003687143
+Info 750  [13:12:56.184] getCompletionData: Semantic work: 8.968684999272227
+Info 751  [13:12:56.200] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.940035998821259
+Info 752  [13:12:56.209] getCompletionData: Get current token: 0.02905000001192093
+Info 753  [13:12:56.209] getCompletionData: Is inside comment: 0.0866870004683733
+Info 754  [13:12:56.209] getCompletionData: Get previous token: 0.08058799989521503
+Info 755  [13:12:56.209] getCompletionsAtPosition: isCompletionListBlocker: 0.03286600112915039
+Info 756  [13:12:56.219] getExportInfoMap: cache hit
+Info 757  [13:12:56.226] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 758  [13:12:56.226] collectAutoImports: response is complete
+Info 759  [13:12:56.226] collectAutoImports: 4.335176000371575
+Info 760  [13:12:56.226] getCompletionData: Semantic work: 16.719864999875426
+Info 761  [13:12:56.247] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.448502998799086
+Info 762  [13:12:56.251] getCompletionData: Get current token: 0.011431999504566193
+Info 763  [13:12:56.251] getCompletionData: Is inside comment: 0.05099000036716461
+Info 764  [13:12:56.251] getCompletionData: Get previous token: 0.029008999466896057
+Info 765  [13:12:56.252] getCompletionsAtPosition: isCompletionListBlocker: 0.014945998787879944
+Info 766  [13:12:56.256] getExportInfoMap: cache hit
+Info 767  [13:12:56.259] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 768  [13:12:56.259] collectAutoImports: response is complete
+Info 769  [13:12:56.259] collectAutoImports: 2.529279999434948
+Info 770  [13:12:56.259] getCompletionData: Semantic work: 7.646209999918938
+Info 771  [13:12:56.274] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.194264000281692
+Info 772  [13:12:56.276] getCompletionData: Get current token: 0.006486998870968819
+Info 773  [13:12:56.276] getCompletionData: Is inside comment: 0.020262999460101128
+Info 774  [13:12:56.276] getCompletionData: Get previous token: 0.026797998696565628
+Info 775  [13:12:56.277] getCompletionsAtPosition: isCompletionListBlocker: 0.01667500101029873
+Info 776  [13:12:56.282] getExportInfoMap: cache hit
+Info 777  [13:12:56.285] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 778  [13:12:56.286] collectAutoImports: response is complete
+Info 779  [13:12:56.286] collectAutoImports: 2.8813910000026226
+Info 780  [13:12:56.286] getCompletionData: Semantic work: 8.976741001009941
+Info 781  [13:12:56.295] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.641443999484181
+Info 782  [13:12:56.298] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 783  [13:12:56.302] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 4.184109000489116ms
+Info 784  [13:12:56.302] Different program with same set of files
+Info 785  [13:12:56.302] getCompletionData: Get current token: 0.017500000074505806
+Info 786  [13:12:56.302] getCompletionData: Is inside comment: 0.01655299961566925
+Info 787  [13:12:56.302] getCompletionData: Get previous token: 0.01921600103378296
+Info 788  [13:12:56.303] getCompletionsAtPosition: isCompletionListBlocker: 0.010312998667359352
+Info 789  [13:12:56.310] getExportInfoMap: cache hit
+Info 790  [13:12:56.312] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 791  [13:12:56.312] collectAutoImports: response is complete
+Info 792  [13:12:56.312] collectAutoImports: 1.2101570013910532
+Info 793  [13:12:56.312] getCompletionData: Semantic work: 9.574833000078797
+Info 794  [13:12:56.318] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.350488001480699
+Info 795  [13:12:56.320] getCompletionData: Get current token: 0.006186001002788544
+Info 796  [13:12:56.321] getCompletionData: Is inside comment: 0.014784999191761017
+Info 797  [13:12:56.321] getCompletionData: Get previous token: 0.015119001269340515
+Info 798  [13:12:56.321] getCompletionsAtPosition: isCompletionListBlocker: 0.038328999653458595
+Info 799  [13:12:56.322] getExportInfoMap: cache hit
+Info 800  [13:12:56.325] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 801  [13:12:56.325] collectAutoImports: response is complete
+Info 802  [13:12:56.325] collectAutoImports: 2.0713119991123676
+Info 803  [13:12:56.325] getCompletionData: Semantic work: 4.639979999512434
+Info 804  [13:12:56.334] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.600661998614669
+Info 805  [13:12:56.336] getCompletionData: Get current token: 0.006254000589251518
+Info 806  [13:12:56.336] getCompletionData: Is inside comment: 0.015443999320268631
+Info 807  [13:12:56.336] getCompletionData: Get previous token: 0.015992000699043274
+Info 808  [13:12:56.336] getCompletionsAtPosition: isCompletionListBlocker: 0.011440999805927277
+Info 809  [13:12:56.338] getExportInfoMap: cache hit
+Info 810  [13:12:56.340] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 811  [13:12:56.340] collectAutoImports: response is complete
+Info 812  [13:12:56.340] collectAutoImports: 1.2433010004460812
+Info 813  [13:12:56.340] getCompletionData: Semantic work: 3.506649000570178
+Info 814  [13:12:56.346] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.951859999448061
+Info 815  [13:12:56.347] getCompletionData: Get current token: 0.006137000396847725
+Info 816  [13:12:56.347] getCompletionData: Is inside comment: 0.03273899853229523
+Info 817  [13:12:56.347] getCompletionData: Get previous token: 0.020069001242518425
+Info 818  [13:12:56.347] getCompletionsAtPosition: isCompletionListBlocker: 0.012450000271201134
+Info 819  [13:12:56.352] getExportInfoMap: cache hit
+Info 820  [13:12:56.354] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 821  [13:12:56.354] collectAutoImports: response is complete
+Info 822  [13:12:56.354] collectAutoImports: 1.4131840001791716
+Info 823  [13:12:56.354] getCompletionData: Semantic work: 6.386810999363661
+Info 824  [13:12:56.360] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.842050999403
+Info 825  [13:12:56.364] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 826  [13:12:56.367] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 3.235318999737501ms
+Info 827  [13:12:56.367] Different program with same set of files
+Info 828  [13:12:56.368] getCompletionData: Get current token: 0.00752599909901619
+Info 829  [13:12:56.368] getCompletionData: Is inside comment: 0.015665998682379723
+Info 830  [13:12:56.368] getCompletionData: Get previous token: 0.019814999774098396
+Info 831  [13:12:56.368] getCompletionsAtPosition: isCompletionListBlocker: 0.009885000064969063
+Info 832  [13:12:56.372] getExportInfoMap: cache hit
+Info 833  [13:12:56.404] collectAutoImports: resolved 5 module specifiers, plus 0 ambient and 40 from cache
+Info 834  [13:12:56.404] collectAutoImports: response is complete
+Info 835  [13:12:56.404] collectAutoImports: 31.47994500026107
+Info 836  [13:12:56.404] getCompletionData: Semantic work: 36.6861310005188
+Info 837  [13:12:56.416] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.655719999223948
+Info 838  [13:12:56.661] getCompletionData: Get current token: 0.010957000777125359
+Info 839  [13:12:56.661] getCompletionData: Is inside comment: 0.02830899879336357
+Info 840  [13:12:56.661] getCompletionData: Get previous token: 0.029810000211000443
+Info 841  [13:12:56.661] getCompletionsAtPosition: isCompletionListBlocker: 0.21787700057029724
+Info 842  [13:12:56.665] getExportInfoMap: cache hit
+Info 843  [13:12:56.683] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 45 from cache
+Info 844  [13:12:56.683] collectAutoImports: response is complete
+Info 845  [13:12:56.683] collectAutoImports: 17.94607099890709
+Info 846  [13:12:56.683] getCompletionData: Semantic work: 21.89112599939108
+Info 847  [13:12:56.689] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.834334999322891
+Info 848  [13:12:56.691] getCompletionData: Get current token: 0.005927000194787979
+Info 849  [13:12:56.691] getCompletionData: Is inside comment: 0.015633000060915947
+Info 850  [13:12:56.691] getCompletionData: Get previous token: 0.014918001368641853
+Info 851  [13:12:56.691] getCompletionsAtPosition: isCompletionListBlocker: 0.013496000319719315
+Info 852  [13:12:56.693] getExportInfoMap: cache hit
+Info 853  [13:12:56.722] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 45 from cache
+Info 854  [13:12:56.722] collectAutoImports: response is complete
+Info 855  [13:12:56.723] collectAutoImports: 29.431376999244094
+Info 856  [13:12:56.723] getCompletionData: Semantic work: 31.503041999414563
+Info 857  [13:12:56.735] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.007074000313878
+Info 858  [13:12:56.737] getCompletionData: Get current token: 0.0063870009034872055
+Info 859  [13:12:56.737] getCompletionData: Is inside comment: 0.017057999968528748
+Info 860  [13:12:56.737] getCompletionData: Get previous token: 0.01681699976325035
+Info 861  [13:12:56.737] getCompletionsAtPosition: isCompletionListBlocker: 0.010382000356912613
+Info 862  [13:12:56.740] getExportInfoMap: cache hit
+Info 863  [13:12:56.755] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 45 from cache
+Info 864  [13:12:56.755] collectAutoImports: response is complete
+Info 865  [13:12:56.755] collectAutoImports: 14.82060500048101
+Info 866  [13:12:56.755] getCompletionData: Semantic work: 18.56764700077474
+Info 867  [13:12:56.762] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.809394000098109
+Info 868  [13:12:56.764] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 869  [13:12:56.768] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 3.2573930006474257ms
+Info 870  [13:12:56.768] Different program with same set of files
+Info 871  [13:12:56.951] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 872  [13:12:56.957] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 6.397732000797987ms
+Info 873  [13:12:56.957] Different program with same set of files
+Info 874  [13:12:57.103] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 875  [13:12:57.130] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 31 structureChanged: true structureIsReused:: SafeModules Elapsed: 26.317111998796463ms
+Info 876  [13:12:57.130] Different program with same set of files
+Info 877  [13:12:57.699] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 878  [13:12:57.755] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 32 structureChanged: true structureIsReused:: SafeModules Elapsed: 56.06827399879694ms
+Info 879  [13:12:57.755] Project '/dev/null/inferredProject4*' (Inferred)
+Info 880  [13:12:57.755] 	Files (119)
+
+Info 881  [13:12:57.755] -----------------------------------------------
+Info 882  [13:12:58.853] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 883  [13:12:58.862] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 9.131831999868155ms
+Info 884  [13:12:58.863] Different program with same set of files
+Info 885  [13:12:58.864] getCompletionData: Get current token: 0.021553000435233116
+Info 886  [13:12:58.864] getCompletionData: Is inside comment: 0.048117998987436295
+Info 887  [13:12:58.864] getCompletionData: Get previous token: 0.04883600026369095
+Info 888  [13:12:58.864] getCompletionsAtPosition: isCompletionListBlocker: 0.060159001499414444
+Info 889  [13:12:58.877] getExportInfoMap: cache miss or empty; calculating new results
+Info 890  [13:12:58.908] getExportInfoMap: done in 38.410884000360966 ms
+Info 891  [13:12:58.912] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 892  [13:12:58.912] collectAutoImports: response is complete
+Info 893  [13:12:58.912] collectAutoImports: 3.0630409996956587
+Info 894  [13:12:58.912] getCompletionData: Semantic work: 47.71292999945581
+Info 895  [13:12:58.920] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.407823000103235
+Info 896  [13:12:58.961] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 897  [13:12:58.967] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 6.149364998564124ms
+Info 898  [13:12:58.967] Different program with same set of files
+Info 899  [13:12:58.967] getCompletionData: Get current token: 0.011101000010967255
+Info 900  [13:12:58.967] getCompletionData: Is inside comment: 0.019662000238895416
+Info 901  [13:12:58.967] getCompletionData: Get previous token: 0.016109999269247055
+Info 902  [13:12:58.968] getCompletionsAtPosition: isCompletionListBlocker: 0.01981700025498867
+Info 903  [13:12:58.973] getExportInfoMap: cache hit
+Info 904  [13:12:58.974] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 905  [13:12:58.974] collectAutoImports: response is complete
+Info 906  [13:12:58.974] collectAutoImports: 1.2551479991525412
+Info 907  [13:12:58.974] getCompletionData: Semantic work: 6.905991999432445
+Info 908  [13:12:58.981] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.044916000217199
+Info 909  [13:12:59.394] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 910  [13:12:59.410] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 16.513032998889685ms
+Info 911  [13:12:59.410] Different program with same set of files
+Info 912  [13:12:59.580] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 913  [13:12:59.586] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 6.533749999478459ms
+Info 914  [13:12:59.586] Different program with same set of files
+Info 915  [13:13:00.593] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 916  [13:13:00.611] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 18.007755000144243ms
+Info 917  [13:13:00.612] Different program with same set of files
+Info 918  [13:13:01.237] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 919  [13:13:01.258] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 20.992094000801444ms
+Info 920  [13:13:01.258] Different program with same set of files
+Info 921  [13:13:08.130] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 922  [13:13:08.145] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 15.190355001017451ms
+Info 923  [13:13:08.145] Different program with same set of files
+Info 924  [13:13:09.082] Format host information updated
+Info 925  [13:13:12.534] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 926  [13:13:12.577] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 40 structureChanged: true structureIsReused:: SafeModules Elapsed: 42.721843998879194ms
+Info 927  [13:13:12.577] Project '/dev/null/inferredProject4*' (Inferred)
+Info 928  [13:13:12.577] 	Files (118)
+
+Info 929  [13:13:12.577] -----------------------------------------------
+Info 930  [13:13:12.636] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 931  [13:13:12.660] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 41 structureChanged: true structureIsReused:: SafeModules Elapsed: 24.008504999801517ms
+Info 932  [13:13:12.660] Different program with same set of files
+Info 933  [13:13:13.146] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 934  [13:13:13.205] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 42 structureChanged: true structureIsReused:: SafeModules Elapsed: 58.47382399998605ms
+Info 935  [13:13:13.205] Project '/dev/null/inferredProject4*' (Inferred)
+Info 936  [13:13:13.205] 	Files (119)
+
+Info 937  [13:13:13.205] -----------------------------------------------
+Info 938  [13:13:13.206] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 939  [13:13:13.210] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 4.073598001152277ms
+Info 940  [13:13:13.210] Different program with same set of files
+Info 941  [13:13:13.781] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 942  [13:13:13.793] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 11.694098001345992ms
+Info 943  [13:13:13.793] Different program with same set of files
+Info 944  [13:13:13.794] getCompletionData: Get current token: 0.012517999857664108
+Info 945  [13:13:13.794] getCompletionData: Is inside comment: 0.004886999726295471
+Info 946  [13:13:13.794] getCompletionData: Get previous token: 0.05293100140988827
+Info 947  [13:13:13.794] getCompletionsAtPosition: isCompletionListBlocker: 0.011808998882770538
+Info 948  [13:13:13.795] getCompletionData: Semantic work: 0.3610939998179674
+Info 949  [13:13:13.796] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.5421559996902943
+Info 950  [13:13:17.034] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 951  [13:13:17.038] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 3.270541999489069ms
+Info 952  [13:13:17.038] Different program with same set of files
+Info 953  [13:13:17.038] getCompletionData: Get current token: 0.006616000086069107
+Info 954  [13:13:17.038] getCompletionData: Is inside comment: 0.002366000786423683
+Info 955  [13:13:17.038] getCompletionData: Get previous token: 0.028978999704122543
+Info 956  [13:13:17.038] getCompletionsAtPosition: isCompletionListBlocker: 0.0031449999660253525
+Info 957  [13:13:17.038] getCompletionData: Semantic work: 0.13300499878823757
+Info 958  [13:13:17.038] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.07378999888896942
+Info 959  [13:13:17.501] Format host information updated
+Info 960  [13:13:17.734] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 961  [13:13:17.739] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 4.769220000132918ms
+Info 962  [13:13:17.739] Different program with same set of files
+Info 963  [13:14:12.694] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 964  [13:14:12.756] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 47 structureChanged: true structureIsReused:: SafeModules Elapsed: 62.15304799936712ms
+Info 965  [13:14:12.756] Different program with same set of files
+Info 966  [13:14:14.047] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 967  [13:14:14.064] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 17.341560000553727ms
+Info 968  [13:14:14.065] Different program with same set of files
+Info 969  [13:14:14.535] Format host information updated
+Info 970  [13:14:30.589] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 971  [13:14:30.610] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 19.94313400052488ms
+Info 972  [13:14:30.610] Different program with same set of files
+Info 973  [13:14:32.107] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 974  [13:14:32.125] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 17.889221999794245ms
+Info 975  [13:14:32.126] Different program with same set of files
+Info 976  [13:14:32.195] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 977  [13:14:32.203] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 7.359012998640537ms
+Info 978  [13:14:32.203] Different program with same set of files
+Info 979  [13:14:32.884] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 980  [13:14:32.941] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 52 structureChanged: true structureIsReused:: SafeModules Elapsed: 56.38244900107384ms
+Info 981  [13:14:32.941] Different program with same set of files
+Info 982  [13:14:36.340] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 983  [13:14:36.357] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 16.519190000370145ms
+Info 984  [13:14:36.357] Different program with same set of files
+Info 985  [13:14:37.557] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 986  [13:14:37.572] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 14.660050999373198ms
+Info 987  [13:14:37.573] Different program with same set of files
+Info 988  [13:14:37.943] Format host information updated
+Info 989  [13:14:48.611] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 990  [13:14:48.613] Elapsed:: 1.171840999275446ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 991  [13:14:48.613] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 992  [13:14:48.613] Elapsed:: 0.5422080010175705ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules :: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/node_modules 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 993  [13:14:48.997] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 994  [13:14:49.033] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 55 structureChanged: true structureIsReused:: Not Elapsed: 35.656765999272466ms
+Info 995  [13:14:49.033] Different program with same set of files
+Info 996  [13:14:49.130] FileWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/package.json 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/package.json 250 undefined WatchType: package.json file
+Info 997  [13:14:49.132] Elapsed:: 2.0320459995418787ms FileWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/package.json 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/package.json 250 undefined WatchType: package.json file
+Info 998  [13:14:51.498] Before ensureProjectForOpenFiles:
+Info 999  [13:14:51.499] After ensureProjectForOpenFiles:
+Info 1000 [13:14:51.500] got projects updated in background, updating diagnostics for /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/routes/userRoutes.js,/home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js,/home/souza/Organização/Recursos/Repositórios/mock-api/index.js
+Info 1001 [13:15:03.319] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1002 [13:15:03.334] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 14.147484000772238ms
+Info 1003 [13:15:03.334] Different program with same set of files
+Info 1004 [13:15:04.928] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1005 [13:15:04.946] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 17.334391999989748ms
+Info 1006 [13:15:04.946] Different program with same set of files
+Info 1007 [13:15:05.764] Format host information updated
+Info 1008 [13:25:26.399] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1009 [13:25:26.400] Elapsed:: 0.08786400035023689ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1010 [13:25:26.400] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1011 [13:25:26.400] Elapsed:: 0.02885199896991253ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1012 [13:25:26.400] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1013 [13:25:26.400] Elapsed:: 0.07676500082015991ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1014 [13:25:26.400] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1015 [13:25:26.400] Elapsed:: 0.021107999607920647ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1016 [13:26:58.587] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1017 [13:26:58.588] Elapsed:: 0.05100800096988678ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1018 [13:26:58.588] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1019 [13:26:58.588] Elapsed:: 0.03225699998438358ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1020 [13:26:58.588] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1021 [13:26:58.588] Elapsed:: 0.03747199848294258ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1022 [13:26:58.588] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1023 [13:26:58.589] Elapsed:: 0.04037499986588955ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1024 [13:27:56.446] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1025 [13:27:56.446] Elapsed:: 0.017093000933527946ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 0:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1026 [13:27:56.446] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1027 [13:27:56.446] Elapsed:: 0.018845001235604286ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/userController.js 1:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1028 [13:27:56.446] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1029 [13:27:56.446] Elapsed:: 0.007603999227285385ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 2:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1030 [13:27:56.446] DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1031 [13:27:56.446] Elapsed:: 0.0058529991656541824ms DirectoryWatcher:: Triggered with /home/souza/Organização/Recursos/Repositórios/mock-api/src/controllers/controllerUtils.js 3:: WatchInfo: /home/souza/Organização/Recursos/Repositórios/mock-api/src 1 undefined Project: /dev/null/inferredProject4* WatchType: Failed Lookup Locations
+Info 1032 [13:30:32.308] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1033 [13:30:32.342] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 33.4782619997859ms
+Info 1034 [13:30:32.342] Different program with same set of files
+Info 1035 [13:30:33.813] Format host information updated
+Info 1036 [13:30:34.029] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1037 [13:30:34.041] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 12.745419001206756ms
+Info 1038 [13:30:34.041] Different program with same set of files
+Info 1039 [13:31:14.380] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1040 [13:31:14.387] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 6.967071000486612ms
+Info 1041 [13:31:14.387] Different program with same set of files
+Info 1042 [13:31:16.581] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1043 [13:31:16.602] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 20.639328999444842ms
+Info 1044 [13:31:16.602] Different program with same set of files
+Info 1045 [13:31:17.169] Format host information updated
+Info 1046 [13:36:30.532] Starting updateGraphWorker: Project: /dev/null/inferredProject4*
+Info 1047 [13:36:30.542] Finishing updateGraphWorker: Project: /dev/null/inferredProject4* Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 9.328624997287989ms
+Info 1048 [13:36:30.542] Different program with same set of files

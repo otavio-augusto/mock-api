@@ -17,7 +17,7 @@ userRouter.post('/',
   postUser);
 
 //ROTA PUT
-userRouter.put('/:id',
+userRouter.put('/',
   putUser);
 
 //ROTA DELETE

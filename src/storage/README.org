@@ -1,31 +1,27 @@
 #+title: /Storage/
 Nesta pasta se encontram tudo relacionado ao armazenamento para a API.
-
 #+begin_src js :tangle storageDriver.js
-import { readFile, writeFile } from 'fs'
+import { writeFileSync } from 'fs'
+import { promises as fs } from "fs";
+import { join } from 'path'
 #+end_src
 
 * Armazenar dados
 #+begin_src js :tangle storageDriver.js
 export async function writeData(filename, content) {
-  console.log("WRITING DATA")
-  const catchError = (error) => {error ? console.log(error) : console.log("OK")}
-  await writeFile(filename, content, catchError)
+  const currentData = await readData(join(filename))
+  currentData.push(content)
+  writeFileSync(join("./assets/", filename), JSON.stringify(currentData));
 }
 #+end_src
 
 * Recuperar dados
 #+begin_src js :tangle storageDriver.js
 export async function readData(filename) {
-  const results = ""
-  const callback = (error, data) => {
-    if (error)
-      console.log(error)
-    else
-      results = data
-  }
-  await readFile(filename, callback)
-  return results
+  console.log(filename)
+  const callback = (error, data) => { error ? console.log(error) : data }
+  const rawData = await fs.readFile(join("./assets/", filename), callback)
+  return JSON.parse(rawData)
 }
 #+end_src
 
