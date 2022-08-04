@@ -1,6 +1,6 @@
 //IMPORTS ROUTER e CONTROLLER
 import { Router } from 'express'
-import { getTheme } from '../controllers/themeController.js'
+import { getTheme } from '../controllers/themeController'
 
 const themeRouter = Router()
 

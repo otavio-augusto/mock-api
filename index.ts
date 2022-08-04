@@ -4,10 +4,9 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 //CORS IMPORTS
-import cors from 'cors'
 //IMPORT ROTAS
-import usersRoutes from './src/routes/userRoutes.js'
-import themeRoutes from './src/routes/themeRoutes.js'
+import usersRoutes from './src/routes/userRoutes'
+import themeRoutes from './src/routes/themeRoutes'
 
 
 const { API_PORT } = process.env;
@@ -15,11 +14,10 @@ const { API_PORT } = process.env;
 const app = express();
 app.use(express.json());
 
-app.use(cors());
 app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
 

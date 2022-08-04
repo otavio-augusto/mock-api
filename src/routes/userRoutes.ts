@@ -1,6 +1,6 @@
 //IMPORTS ROUTER e CONTROLLER
 import { Router } from 'express'
-import { getUser, getUsers, putUser, postUser, deleteUser } from '../controllers/userController.js'
+import { getUser, getUsers, putUser, postUser, deleteUser } from '../controllers/userController'
 
 const userRouter = Router()
 
