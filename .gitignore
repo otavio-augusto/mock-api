@@ -3,3 +3,4 @@
 .log/tsserver.log
 ./log/tsserver.log
 ./node_modules
+/node_modules/
