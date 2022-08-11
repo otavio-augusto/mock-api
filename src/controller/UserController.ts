@@ -20,20 +20,22 @@ export class UserController {
         response.status(201).json(results)
     }
 
-    async save(request: Request, _response: Response, _next: NextFunction) {
+    async save(request: Request, response: Response, _next: NextFunction) {
         console.log("USERS: PUT")
-        return await this.userRepository.save(request.body)
+        await this.userRepository.save(request.body)
+        response.status(201).send("OK")
     }
 
-    async modify(request: Request, _response: Response, _next: NextFunction) {
+    async modify(request: Request, response: Response, _next: NextFunction) {
         console.log("USERS: POST")
-        return await this.userRepository.update(request.body.id, request.body)
+        await this.userRepository.update(request.body.id, request.body)
+        response.status(201).send("OK")
     }
 
-    async remove(request: Request, _response: Response, _next: NextFunction) {
-        console.log("USERS: DELETE")
+    async remove(request: Request, response: Response, _next: NextFunction) {
         let userToRemove = await this.userRepository.findOneBy({ id: request.params.id })
         await this.userRepository.remove(userToRemove)
+        response.status(201).send("OK")
     }
 
 }
