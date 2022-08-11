@@ -1,5 +1,27 @@
-#+title: Readme
-API em ExpressJS
-#+begin_src bash :noeval
+#+title: API em Typescript com TypeORM, Express e PostgreSQL
+
+Primeiramente, antes de inciar o projeto, tenha certeza que o docker está instalado, e que o seu /daemon/ foi iniciado:
+#+begin_src sh :noeval
+sudo dockerd
+#+end_src
+
+É possível inciar o projeto sem usar o docker-compose, ou criando um contêiner com /postgres/ separadamente, mas, para propósitos de teste, é mais fácil utilizando:
+#+begin_src sh :noeval
+sudo docker-compose up
+#+end_src
+Para encerrar o processo, mande o sinal de interrupção ~CRTL+C~ no terminal, ou utilize: ~killall docker~
+
+Antes de inciar o projeto, instale as dependências:
+#+begin_src sh :noeval
+npm i
+#+end_src
+
+Para iniciar:
+#+begin_src sh :noeval
 npm start
 #+end_src
+
+* COMMENT Metadados
+# local variables:
+# ispell-local-dictionary: "pt_BR"
+# end:
