@@ -1,8 +1,10 @@
 import * as express from "express"
 import * as bodyParser from "body-parser"
-import { Request, Response } from "express"
+import { Request, Response, NextFunction } from "express"
 import { AppDataSource } from "./data-source"
 import { Routes } from "./routes"
+import * as cookieParser from 'cookie-parser';
+import { validateAuth } from './auth/AuthHandler'
 
 const app = createApp()
 startDataSources()
@@ -11,14 +13,23 @@ addRoutes()
 function createApp() {
     const app = express()
     app.use(bodyParser.json())
+    app.use(cookieParser())
 
-    app.use(function (req: Request, res: Response, next: () => void) {
-        res.setHeader('Access-Control-Allow-Origin', '*');
+    app.use(function (_req: Request, res: Response, next: NextFunction) {
+        res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
         res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+        res.setHeader("Access-Control-Allow-Credentials", true);
         next();
     });
 
+    app.use('/api', function (req: Request, res: Response, next: NextFunction) {
+        if (req.cookies['JWTtoken'])
+            validateAuth(req.cookies['JWTtoken'])
+        else
+            return res.status(401).send()
+        next()
+    });
     return app
 };
 
