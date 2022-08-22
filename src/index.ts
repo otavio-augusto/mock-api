@@ -15,15 +15,18 @@ function createApp() {
     app.use(bodyParser.json())
     app.use(cookieParser())
 
-    app.use(function (_req: Request, res: Response, next: NextFunction) {
+    app.use(function (req: Request, res: Response, next: NextFunction) {
         res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
-        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
         res.setHeader("Access-Control-Allow-Credentials", true);
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+        if (req.method === "OPTIONS")
+            return res.status(200).end();
         next();
     });
 
     app.use('/api', function (req: Request, res: Response, next: NextFunction) {
+        console.log("AUTH MIDDLEWARE")
         if (req.cookies['JWTtoken'])
             validateAuth(req.cookies['JWTtoken'])
         else

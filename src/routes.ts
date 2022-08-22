@@ -47,4 +47,9 @@ export const Routes = [{
     route: "/login",
     controller: AuthHandler,
     action: "generateAuth"
+}, {
+    method: "get",
+    route: "/login/clear",
+    controller: AuthHandler,
+    action: "clearAuth"
 }]
