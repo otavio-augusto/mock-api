@@ -52,4 +52,10 @@ export const Routes = [{
     route: "/login/clear",
     controller: AuthHandler,
     action: "clearAuth"
+}, {
+    method: "post",
+    route: "/cadastro",
+    controller: UserController,
+    action: "save"
+}, {
 }]
