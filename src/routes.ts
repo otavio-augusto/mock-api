@@ -29,17 +29,17 @@ export const Routes = [{
     action: "remove"
 }, {
     method: "get",
-    route: "/api/themes/:id",
+    route: "/themes/:id",
     controller: ThemeController,
     action: "one"
 }, {
     method: "post",
-    route: "/api/themes/",
+    route: "/themes/",
     controller: ThemeController,
     action: "save"
 }, {
     method: "delete",
-    route: "/api/themes/:id",
+    route: "/themes/:id",
     controller: ThemeController,
     action: "remove"
 }, {
@@ -54,8 +54,7 @@ export const Routes = [{
     action: "clearAuth"
 }, {
     method: "post",
-    route: "/cadastro",
+    route: "/signup",
     controller: UserController,
     action: "save"
-}, {
 }]

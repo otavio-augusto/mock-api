@@ -26,7 +26,6 @@ function createApp() {
     });
 
     app.use('/api', function (req: Request, res: Response, next: NextFunction) {
-        console.log("AUTH MIDDLEWARE")
         if (req.cookies['JWTtoken'])
             validateAuth(req.cookies['JWTtoken'])
         else
