@@ -1,7 +1,5 @@
 import "reflect-metadata"
 import { DataSource } from "typeorm"
-import { User } from "./entity/User"
-import { Theme } from "./entity/Theme"
 
 export const AppDataSource = new DataSource({
     name: "default",
@@ -13,9 +11,7 @@ export const AppDataSource = new DataSource({
     database: "test",
     synchronize: true,
     logging: false,
-    entities: [User, Theme],
-    migrations: [],
-    subscribers: [],
+    entities: ['src/entities/*.{js,ts}'],
+    migrations: ['src/migration/*.ts'],
+    subscribers: ['src/subscribers/*.ts'],
 })
-
-export default AppDataSource

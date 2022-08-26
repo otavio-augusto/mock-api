@@ -9,7 +9,7 @@ export class CreateTheme1661537804739 implements MigrationInterface {
                 columns: [
                     {
                         name: "id",
-                        type: "serial4",
+                        type: "varchar(200)",
                     },
                     {
                         name: "primary",

@@ -2,7 +2,7 @@
    "name": "mock-api",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
-   "type": "commonjs",
+   "type": "CommonJS",
    "devDependencies": {
       "@types/node": "^16.11.10",
       "ts-node": "10.7.0",
@@ -19,7 +19,6 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "typeorm": "typeorm-ts-node-commonjs",
-      "migration:run": "typeorm-ts-node-commonjs migration:run -d src/data-source.ts"
+      "typeorm:cli": "ts-node ./node_modules/typeorm/cli -d src/data-source.ts"
    }
 }
