@@ -19,6 +19,6 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "typeorm:cli": "ts-node ./node_modules/typeorm/cli -d src/data-source.ts"
+      "migration:run": "ts-node ./node_modules/typeorm/cli -d src/data-source.ts"
    }
 }
