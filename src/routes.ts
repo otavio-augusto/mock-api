@@ -53,6 +53,11 @@ export const Routes = [{
     controller: AuthHandler,
     action: "clearAuth"
 }, {
+    method: "get",
+    route: "/validate",
+    controller: AuthHandler,
+    action: "validateAuth"
+}, {
     method: "post",
     route: "/signup",
     controller: UserController,

@@ -7,13 +7,13 @@ export class AuthHandler {
     static readonly secret = process.env.SECRET;
     async generateAuth(request: Request, response: Response, _next: NextFunction) {
         const { email, password } = request.body;
-        if (!(await userExists(email, password))) {
-            console.log("DOES NOT EXIST")
+        const user = await userExists(email, password)
+        if (!user) {
             response.status(401).send()
         } else {
             console.log("ELSE")
             const token = sign(
-                { userEmail: email, userPassword: password },
+                { userEmail: email, userPassword: password, authLevel: user.authType },
                 AuthHandler.secret,
                 { expiresIn: "24h" }
             )
@@ -22,15 +22,14 @@ export class AuthHandler {
                 httpOnly: true,
                 secure: true
             });
+
             response.status(200).send()
         }
     }
 
     validateAuth(request: Request, response: Response, _next: NextFunction) {
-        const token = request.headers.authorization.split(' ')[1];
-        console.log(token)
+        const token = request.headers.cookie.split('=')[1];
         const decoded = verify(token, AuthHandler.secret)
-        console.log(decoded)
         if (decoded)
             return response.status(200).json(decoded)
         response.status(401).send()
@@ -51,6 +50,6 @@ const userExists = async (userEmail: string, userPassword: string) => {
     const user = await new UserController().login(userEmail)
     console.log(user)
     if (user != null && user.password === userPassword)
-        return true
-    return false
+        return user
+    return null
 }

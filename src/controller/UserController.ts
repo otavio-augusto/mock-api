@@ -19,6 +19,7 @@ export class UserController {
 
     async save(request: Request, response: Response, _next: NextFunction) {
         console.log("USERS: PUT")
+        console.log(request.body)
         await this.userRepository.save(request.body)
         response.status(201).send()
     }

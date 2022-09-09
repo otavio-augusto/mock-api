@@ -19,6 +19,8 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "migration:run": "ts-node ./node_modules/typeorm/cli -d src/data-source.ts"
+      "migration:run": "ts-node ./node_modules/typeorm/cli -d src/data-source.ts migration:run",
+      "migration:create": "ts-node -r tsconfig-paths/register node_modules/typeorm/cli.js migration:generate -f src/config/database/ormconfig -d src/migrations -n",
+      "migration:generate": "ts-node "
    }
 }

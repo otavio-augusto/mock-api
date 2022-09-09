@@ -9,9 +9,9 @@ export const AppDataSource = new DataSource({
     username: "test",
     password: "test",
     database: "test",
-    synchronize: true,
+    synchronize: false,
     logging: false,
-    entities: ['src/entities/*.{js,ts}'],
+    entities: ['src/entity/*.{js,ts}'],
     migrations: ['src/migration/*.ts'],
     subscribers: ['src/subscribers/*.ts'],
 })
