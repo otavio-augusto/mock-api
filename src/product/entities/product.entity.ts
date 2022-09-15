@@ -1,8 +1,8 @@
+import { Client } from "../../client/entities/client.entity"
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany } from "typeorm"
-import { Cliente } from "./Client"
 
 @Entity()
-export class Produto {
+export class Product {
 
     @PrimaryGeneratedColumn("uuid")
     id: string
@@ -19,6 +19,6 @@ export class Produto {
     @Column()
     quantidade: number
 
-    @ManyToMany(() => Cliente)
-    clientes: Cliente[]
+    @ManyToMany(() => Client)
+    clientes: Client[]
 }
