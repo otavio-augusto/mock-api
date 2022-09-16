@@ -1,8 +1,10 @@
-import { Controller, Get, Body, Patch, Param, Delete, Put } from '@nestjs/common';
+import { Controller, Get, Body, Patch, Param, Delete, Put, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard as apiAuthGuard } from 'src/auth/jwt-auth.guard';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { UserService } from './user.service';
 
+@UseGuards(apiAuthGuard)
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService) {
@@ -20,7 +22,7 @@ export class UserController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.userService.findOne(id);
+    return this.userService.findOneById(id);
   }
 
   @Patch(':id')

@@ -2,13 +2,14 @@ import { Controller, Get, Body, Patch, Param, Delete, Put } from '@nestjs/common
 import { ClientService } from './client.service';
 import { CreateClientDto } from './dto/create-client.dto';
 import { UpdateClientDto } from './dto/update-client.dto';
+import { Client } from './entities/client.entity';
 
 @Controller('client')
 export class ClientController {
   constructor(private readonly clientService: ClientService) { }
 
   @Put()
-  createClient(@Body() createClientDto: CreateClientDto): Promise<{ name: string; cpf: string; email: string; password: string; authType: string; telefone: string; endereco: string; } & import("/home/souza/Organização/Recursos/Repositórios/mock-nest/src/client/entities/client.entity").Client> {
+  createClient(@Body() createClientDto: CreateClientDto): Promise<Client> {
     return this.clientService.createClient({ ...createClientDto })
   }
 

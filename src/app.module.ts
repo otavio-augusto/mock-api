@@ -7,13 +7,15 @@ import { ThemeModule } from './theme/theme.module';
 import { ClientModule } from './client/client.module';
 import { ProductModule } from './product/product.module';
 import { typeOrmConfig } from 'src/typeorm.config'
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(typeOrmConfig),
     UserModule,
     ThemeModule,
     ClientModule,
-    ProductModule],
+    ProductModule,
+    AuthModule],
   controllers: [AppController],
   providers: [AppService],
 })

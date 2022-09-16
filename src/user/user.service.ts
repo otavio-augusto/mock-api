@@ -17,12 +17,16 @@ export class UserService {
   }
 
   async findAll() {
-    const result = await this.userRepository.find();
-    return result
+    return await this.userRepository.find();
   }
 
-  findOne(@Param('id') id: string) {
+  findOneById(@Param('id') id: string) {
     return this.userRepository.findOneBy({ id: id });
+  }
+
+  findOneByEmail(@Param('email') email: string) {
+    console.log(email)
+    return this.userRepository.findOneBy({ email: email })
   }
 
   update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
@@ -30,6 +34,6 @@ export class UserService {
   }
 
   async remove(@Param('id') id: string) {
-    return this.userRepository.remove(await this.findOne(id));
+    return this.userRepository.remove(await this.findOneById(id));
   }
 }
