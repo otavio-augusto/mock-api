@@ -1,4 +1,5 @@
-import { Controller, Request, Post, UseGuards, Get } from '@nestjs/common';
+import { Controller, Request, Post, UseGuards, Get, Res } from '@nestjs/common';
+import { Response } from 'express';
 import { AppService } from './app.service';
 import { AuthService } from './auth/auth.service';
 import { localAuthGuard } from './auth/local-auth.guard';
@@ -17,7 +18,11 @@ export class AppController {
 
   @UseGuards(localAuthGuard)
   @Post('auth/login')
-  async login(@Request() req: { user: { id: string, email: string, authType: string }; }) {
-    return this.authService.generateAuth(req.user)
+  async login(@Request() req: { user: { id: string, email: string, authType: string }; }, @Res({ passthrough: true }) response: Response) {
+    const token = await this.authService.generateAuth(req.user)
+    response.cookie('auth-cookie', token.acess_token, { httpOnly: true, secure: true })
+    return {
+      auth: token.acess_token
+    }
   }
 }
