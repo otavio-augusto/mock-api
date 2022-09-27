@@ -1,4 +1,4 @@
-import { Controller, Get, Body, Patch, Param, Delete, Put } from '@nestjs/common';
+import { Controller, Get, Body, Patch, Param, Delete, Put, HttpException, HttpStatus, ConflictException } from '@nestjs/common';
 import { ClientService } from './client.service';
 import { CreateClientDto } from './dto/create-client.dto';
 import { UpdateClientDto } from './dto/update-client.dto';
@@ -10,7 +10,14 @@ export class ClientController {
 
   @Put()
   createClient(@Body() createClientDto: CreateClientDto): Promise<Client> {
-    return this.clientService.createClient({ ...createClientDto })
+    try {
+      return this.clientService.createClient({ ...createClientDto })
+    } catch (err) {
+      throw new ConflictException({
+        status: HttpStatus.CONFLICT,
+        error: 'Usuário já existe!'
+      })
+    }
   }
 
   @Get()
@@ -20,7 +27,13 @@ export class ClientController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.clientService.findOne(id);
+    const cliente = this.clientService.findOne(id);
+    if (cliente)
+      return cliente
+    throw new HttpException({
+      status: HttpStatus.NOT_FOUND,
+      error: 'Usuário não encontrado!'
+    }, HttpStatus.NOT_FOUND)
   }
 
   @Patch(':id')
