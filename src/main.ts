@@ -15,10 +15,10 @@ async function bootstrap() {
   app.use(cookieParser());
 
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
+    .setTitle('Mock API')
+    .setDescription('Teste do Portal de Recorrência')
     .setVersion('1.0')
-    .addTag('cats')
+    .addTag('mock')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
