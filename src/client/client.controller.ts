@@ -1,4 +1,5 @@
 import { Controller, Get, Body, Patch, Param, Delete, Put, HttpException, HttpStatus, ConflictException } from '@nestjs/common';
+import { ApiBody } from '@nestjs/swagger';
 import { ClientService } from './client.service';
 import { CreateClientDto } from './dto/create-client.dto';
 import { UpdateClientDto } from './dto/update-client.dto';
@@ -9,6 +10,7 @@ export class ClientController {
   constructor(private readonly clientService: ClientService) { }
 
   @Put()
+  @ApiBody({ type: [CreateClientDto] })
   createClient(@Body() createClientDto: CreateClientDto): Promise<Client> {
     try {
       return this.clientService.createClient({ ...createClientDto })
@@ -37,6 +39,7 @@ export class ClientController {
   }
 
   @Patch(':id')
+  @ApiBody({ type: [UpdateClientDto] })
   update(@Param('id') id: string, @Body() updateClientDto: UpdateClientDto) {
     return this.clientService.update(id, updateClientDto);
   }
