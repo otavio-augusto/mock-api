@@ -21,7 +21,6 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     }
 
     private static validateCookieAuth(request: Request) {
-        console.log(request.cookies)
         if (
             request.cookies &&
             'auth-cookie' in request.cookies &&
